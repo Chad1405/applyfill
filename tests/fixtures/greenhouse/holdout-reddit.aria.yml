@@ -1,0 +1,229 @@
+- img "Banner"
+- main:
+  - img "Reddit Logo"
+  - link "Back to jobs":
+    - /url: https://job-boards.greenhouse.io/reddit
+    - img
+    - text: Back to jobs
+  - heading "3rd Party Partnerships Manager - Signals" [level=1]
+  - img
+  - text: New York City, NY
+  - button "Apply"
+  - text: Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit
+  - link "www.redditinc.com":
+    - /url: http://www.redditinc.com/
+  - text: .
+  - paragraph: Reddit is seeking a Signals Partner Manager to own and scale strategic signal and data partnerships across the global ads ecosystem. This role will lead the partner management motion for platforms that help advertisers send higher-quality conversion signals to Reddit (for example CDPs, tag managers, and bespoke signal partners).
+  - paragraph: This role will own the strategies and relationships with the most impactful signal partners globally, achieving best-in-class product and go-to-market partnerships that enable growth on Reddit by improving signal quality, coverage, and execution speed. Reporting to the Director of 3rd Party Partnerships, this role will work closely across Product, Engineering, Marketing Science, Partner Engineering, and Sales to define how signal partners contribute to Reddit’s lower-funnel strategy and overall signal health.
+  - paragraph:
+    - strong: "Location:"
+    - text: New York preferred; open to candidates within commutable distance of one of our hub locations (New York, Los Angeles, San Francisco, or Chicago).
+  - paragraph:
+    - strong: "Responsibilities:"
+  - list:
+    - listitem:
+      - strong: "Own Signals Partners & Ecosystem:"
+      - text: Manage partnership program for signal partners (including CDPs, tag managers, and related tools) and serve as voice of the ecosystem to internal stakeholders.
+    - listitem:
+      - strong: "Build and Maintain Deep Partner Relationships:"
+      - text: Build and maintain essential executive, partnerships, product and marketing relationships; serve as the primary relationship owner for commercial and strategic discussions related to signal quality
+    - listitem:
+      - strong: "Drive Signal Quality & Performance:"
+      - text: Increase activation of high-quality conversion signals through partner integrations; improve match quality scores, signal coverage, and time-to-high-quality-signal across partner implementations.
+    - listitem:
+      - strong: "Operationalize Signals GTM:"
+      - text: Build repeatable go-to-market motions with signal partners – enablement, incentives, co-marketing, beta programs, and activation playbooks – that scale advertiser adoption and performance gains.
+    - listitem:
+      - strong: "Influence Integration & Product Roadmap:"
+      - text: Partner with Product, Engineering, and Partner Engineering to improve Pixel/CAPI and related APIs, setup flows, defaults, documentation, and validation surfaces informed by partner and advertiser feedback.
+    - listitem:
+      - strong: "Set Partner Incentives Around Signal Quality:"
+      - text: Use certifications, partner tiering, co-marketing, lead routing, QBR visibility, and support prioritization to make signal quality and integration completeness matter to partners.
+    - listitem:
+      - strong: "Represent the Signals Partner Voice:"
+      - text: Manage partner escalations, ensure privacy and compliance alignment, and surface ecosystem insights to inform Reddit’s broader signal and measurement strategy.
+  - paragraph:
+    - strong: "Qualifications:"
+  - list:
+    - listitem: 10+ years in partnerships, partner management, platform ecosystems, or related roles in ad tech, martech, e-commerce, or measurement.
+    - listitem: Experience working with signal- or data-related partners such as CDPs, tag managers, merchant platforms, or performance marketing tools.
+    - listitem: Strong understanding of conversion signal workflows (for example Pixel/CAPI, server-to-server integrations, match quality, identity and deduplication, and event quality).
+    - listitem: Proven ability to drive revenue, performance, or product adoption through partner integrations and co-owned roadmaps.
+    - listitem: Cross-functional execution experience across Product, Engineering, Sales, and Analytics/Marketing Science.
+    - listitem: Structured, metrics-driven operator with strong stakeholder management and the ability to communicate clearly with technical and non-technical audiences.
+    - listitem: Excellent written and verbal communication skills, including the ability to synthesize complex partner and technical detail into clear narratives for executives and external partners.
+  - paragraph:
+    - strong: Bonus Qualifications
+  - list:
+    - listitem: Experience building or scaling partner programs focused on signal quality, measurement, or lower-funnel performance.
+    - listitem: Familiarity with partner incentive design (for example certifications, tiers, co-marketing, lead programs).
+    - listitem: Experience working with large platforms and broader signal/measurement tooling ecosystems.
+    - listitem: Understanding of lower-funnel performance advertising and how signal quality impacts CPA, ROAS, and optimization outcomes.
+    - listitem: Experience with audits or diagnostics of partner integrations (for example setup UX, documentation, defaults, and validation flows).
+  - paragraph:
+    - strong: Benefits
+  - list:
+    - listitem: Comprehensive Health Benefits
+    - listitem: 401k Matching
+    - listitem: Workspace benefits for your home office
+    - listitem: Personal & Professional development funds
+    - listitem: Family Planning Support
+    - listitem: Flexible Vacation (please use them!) & Reddit Global Days Off
+    - listitem: 4+ months paid Parental Leave
+    - listitem: Paid Volunteer time off
+  - paragraph:
+    - strong: "Pay Transparency:"
+  - paragraph: This job posting may span more than one career level.
+  - paragraph:
+    - text: In addition to base salary, this job is eligible to receive equity in the form of restricted stock units, and will also be eligible to receive a commission. Additionally, Reddit offers a wide range of benefits to U.S.-based employees, including medical, dental, and vision insurance, 401(k) program with employer match, generous time off for vacation, and parental leave. To learn more, please visit
+    - link "https://www.redditinc.com/careers/":
+      - /url: https://www.redditinc.com/careers/
+    - text: .
+  - paragraph: To provide greater transparency to candidates, we share base salary ranges for all US-based job postings regardless of state. We set standard base pay ranges for all roles based on function, level, and country location, benchmarked against similar stage growth companies. Final offer amounts are determined by multiple factors including, skills, depth of work experience and relevant licenses/credentials, and may vary from the amounts listed below.
+  - paragraph: "The base salary range for this position is:"
+  - paragraph: $189,000 - $264,600 USD
+  - paragraph: In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews.
+  - paragraph:
+    - text: "During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our"
+    - link "Candidate Privacy Policy for Potential Employees and Contractors":
+      - /url: https://redditinc.com/policies/candidate-privacy-policy
+    - text: .
+  - paragraph:
+    - emphasis: Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.
+  - separator
+  - heading "Apply for this job" [level=2]
+  - paragraph: "*"
+  - paragraph: indicates a required field
+  - text: First Name
+  - textbox "First Name"
+  - text: Last Name
+  - textbox "Last Name"
+  - text: Preferred First Name
+  - textbox "Preferred First Name"
+  - text: Email
+  - textbox "Email"
+  - group "Phone":
+    - text: Phone Country
+    - log
+    - combobox "Country"
+    - button "Toggle flyout":
+      - img
+    - text: Phone
+    - textbox "Phone"
+  - text: Location (City)
+  - log
+  - combobox "Location (City)"
+  - button "Locate me"
+  - group "Resume/CV*":
+    - text: Resume/CV*
+    - button "Attach"
+    - text: Attach
+    - button "Attach"
+    - button "Dropbox"
+    - button "Google Drive"
+    - button "Enter manually"
+    - text: Enter manually
+    - paragraph: "Accepted file types: pdf, doc, docx, txt, rtf"
+  - group "Cover Letter":
+    - text: Cover Letter
+    - button "Attach"
+    - text: Attach
+    - button "Attach"
+    - button "Dropbox"
+    - button "Google Drive"
+    - button "Enter manually"
+    - text: Enter manually
+    - paragraph: "Accepted file types: pdf, doc, docx, txt, rtf"
+  - separator
+  - text: LinkedIn Profile
+  - textbox "LinkedIn Profile"
+  - text: How did you hear about this job?
+  - textbox "How did you hear about this job?"
+  - text: Please provide the name of your current (or most recent) company
+  - textbox "Please provide the name of your current (or most recent) company"
+  - paragraph: "Note: if you're currently employed at Reddit, please submit your application via our Internal Job Board"
+  - text: The person in this role is required to live within 50 miles commuting distance of the office where the role is listed. Are you currently based within 50 miles of the job location, or able to relocate there before your start date?
+  - log
+  - text: Select...
+  - combobox "The person in this role is required to live within 50 miles commuting distance of the office where the role is listed. Are you currently based within 50 miles of the job location, or able to relocate there before your start date?"
+  - button "Toggle flyout":
+    - img
+  - text: If not, tell us a bit more about your location or relocation plans
+  - textbox "If not, tell us a bit more about your location or relocation plans"
+  - text: Are you currently authorized to work in the U.S.?
+  - log
+  - text: Select...
+  - combobox "Are you currently authorized to work in the U.S.?"
+  - button "Toggle flyout":
+    - img
+  - text: Do you now, or will you in the future, require immigration sponsorship to work at Reddit?
+  - log
+  - text: Select...
+  - combobox "Do you now, or will you in the future, require immigration sponsorship to work at Reddit?"
+  - button "Toggle flyout":
+    - img
+  - text: By selecting "I agree," I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy.
+  - log
+  - text: Select...
+  - combobox "By selecting \"I agree,\" I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy."
+  - button "Toggle flyout":
+    - img
+  - paragraph:
+    - link "Reddit's Candidate Privacy Policy":
+      - /url: https://www.redditinc.com/policies/candidate-privacy-policy
+  - separator
+  - heading "Reddit U.S. Equal Employment Information" [level=3]
+  - paragraph: Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. To bring community and belonging to everyone in the world, Reddit’s employees must represent communities and redditors on our platform.
+  - paragraph: Our vision at Reddit is to have a workforce representative of people with different perspectives and experiences, including but not limited to, gender, race and ethnicity, sexual orientation, age, national origin, religion, and political views.
+  - paragraph: We invite you to self-identify across the identities below so we can better understand our talent pools and assess our effectiveness in attracting and recruiting people to Reddit from all backgrounds.
+  - paragraph:
+    - text: Answering these questions will not impact your application, nor will this information be shared with anyone making a hiring decision. For more information, please refer to our statement
+    - link "here":
+      - /url: https://www.redditinc.com/assets/documents/eeoc-statement.pdf
+    - text: .
+  - text: What gender identity do you most closely identify with?
+  - log
+  - text: Select...
+  - combobox "What gender identity do you most closely identify with?"
+  - button "Toggle flyout":
+    - img
+  - text: Are you a person of transgender experience?
+  - log
+  - text: Select...
+  - combobox "Are you a person of transgender experience?"
+  - button "Toggle flyout":
+    - img
+  - text: What sexual orientation do you most closely identify with?
+  - log
+  - text: Select...
+  - combobox "What sexual orientation do you most closely identify with?"
+  - button "Toggle flyout":
+    - img
+  - text: Do you live with a disability (as outlined by the ADA)?
+  - log
+  - text: Select...
+  - combobox "Do you live with a disability (as outlined by the ADA)?"
+  - button "Toggle flyout":
+    - img
+  - text: Are you a veteran/have you served in the military?
+  - log
+  - text: Select...
+  - combobox "Are you a veteran/have you served in the military?"
+  - button "Toggle flyout":
+    - img
+  - text: Please select up to 2 ethnicities that you most closely identify with.
+  - log
+  - text: Select...
+  - combobox "Please select up to 2 ethnicities that you most closely identify with."
+  - button "Toggle flyout":
+    - img
+  - separator
+  - checkbox "By checking this box, I consent to Reddit collecting, storing, and processing my responses to the demographic data surveys above.*"
+  - text: By checking this box, I consent to Reddit collecting, storing, and processing my responses to the demographic data surveys above.*
+  - button "Submit application"
+- contentinfo:
+  - paragraph: Powered by
+  - link "Greenhouse logo":
+    - /url: https://www.greenhouse.com
+    - img "Greenhouse logo"
+- iframe

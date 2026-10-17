@@ -1,0 +1,35 @@
+- link "skip to content":
+  - /url: "#contPane"
+- navigation:
+  - list:
+    - listitem:
+      - link "Search for job":
+        - /url: ETREC179GF.open?USESSION=466F7257782A6D27BC4138C63BF744BD&WVID=3373962BPM&LANG=USA
+    - listitem:
+      - link "Existing user login":
+        - /url: ETREC109DF.open?USESSION=466F7257782A6D27BC4138C63BF744BD&WVID=3373962BPM&LANG=USA
+    - listitem:
+      - link "Forgotten password":
+        - /url: ETREC109DF.REQUEST?USESSION=466F7257782A6D27BC4138C63BF744BD&WVID=3373962BPM&LANG=USA
+    - listitem:
+      - link "My applications":
+        - /url: ETREC109DF.open?USESSION=466F7257782A6D27BC4138C63BF744BD&WVID=3373962BPM&LANG=USA&MYAPP=1
+    - listitem:
+      - link "My profile":
+        - /url: ETREC109DF.open?USESSION=466F7257782A6D27BC4138C63BF744BD&WVID=3373962BPM&LANG=USA&MYPRF=1
+    - listitem:
+      - link "Contact us":
+        - /url: mailto:recruitment@newark-sherwooddc.gov.uk
+- main:
+  - heading "Screening Questions" [level=1]
+  - group "Do you have the right to work in the UK?":
+    - text: Do you have the right to work in the UK?
+    - radio
+    - text: "Yes"
+    - radio
+    - text: "No"
+  - button "Continue"
+  - button "Cancel"
+- contentinfo:
+  - paragraph: Powered by MHR
+- status

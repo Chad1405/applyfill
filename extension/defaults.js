@@ -43,7 +43,7 @@ var APPLYFILL_DEFAULTS = {
     },
     {
       title: "Notice period",
-      match: "notice, start date, when can you start, availability to start",
+      match: "notice period, start date, when can you start, availability to start",
       text: "My notice period is [length]."
     },
     {

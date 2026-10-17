@@ -1,0 +1,49 @@
+<!doctype html>
+<!-- A React 18 form with controlled inputs, plus two custom dropdowns modelled on the ones job sites use:
+     a typeahead combobox (input role=combobox + listbox, like react-select on Greenhouse) and a button
+     that opens a listbox (Workday's data-automation-id dropdowns). Each writes its React state into
+     #state, so the test can check that React saw the fill, not just that the DOM shows a value. -->
+<html lang="en"><head><meta charset="utf-8"><title>React form</title></head>
+<body><h1>Apply: Test Role</h1><div id="app"></div>
+<script src="/react.js"></script><script src="/react-dom.js"></script>
+<script>
+const h = React.createElement, { useState } = React;
+const COUNTRIES = ["France", "Germany", "United Kingdom", "United States"];
+
+function Combo({ id, label, value, onPick }) {
+  const [text, setText] = useState(""), [open, setOpen] = useState(false);
+  const opts = COUNTRIES.filter(c => text && c.toLowerCase().includes(text.toLowerCase()));
+  return h("div", null,
+    h("label", { id: id + "-label", htmlFor: id }, label),
+    h("input", { id, role: "combobox", "aria-autocomplete": "list", "aria-controls": id + "-list", "aria-expanded": open,
+      "aria-labelledby": id + "-label", value: value || text, onChange: e => { setText(e.target.value); setOpen(true); onPick(""); } }),
+    open && opts.length ? h("div", { id: id + "-list", role: "listbox" },
+      opts.map(o => h("div", { key: o, role: "option", onClick: () => { onPick(o); setText(""); setOpen(false); } }, o))) : null);
+}
+
+function WorkdayDropdown({ value, onPick }) {
+  const [open, setOpen] = useState(false);
+  return h("div", { "data-automation-id": "formField-countryDropdown" },
+    h("label", { id: "wd-country-label" }, "Country"),
+    h("button", { type: "button", "aria-haspopup": "listbox", "aria-labelledby": "wd-country-label", "data-automation-id": "countryDropdown",
+      onClick: () => setOpen(!open) }, value || "Select One"),
+    open ? h("ul", { role: "listbox" }, COUNTRIES.map(o => h("li", { key: o, role: "option", "data-automation-id": "promptOption",
+      onClick: () => { onPick(o); setOpen(false); } }, o))) : null);
+}
+
+function App() {
+  const [s, set] = useState({});
+  const bind = k => ({ value: s[k] || "", onChange: e => set(p => ({ ...p, [k]: e.target.value })) });
+  return h("form", null,
+    h("label", null, "First name", h("input", { name: "firstName", ...bind("firstName") })),
+    h("label", null, "Email", h("input", { type: "email", name: "email", ...bind("email") })),
+    // no label text: only Workday's data-automation-id says what this is
+    h("input", { "data-automation-id": "legalNameSection_lastName", ...bind("lastName") }),
+    h("label", null, "Notice period", h("select", { name: "notice", ...bind("noticePeriod") },
+      ["", "Immediately", "1 month", "3 months"].map(o => h("option", { key: o, value: o }, o || "Select…")))),
+    h(Combo, { id: "loc-country", label: "Country", value: s.country, onPick: v => set(p => ({ ...p, country: v })) }),
+    h(WorkdayDropdown, { value: s.wdCountry, onPick: v => set(p => ({ ...p, wdCountry: v })) }),
+    h("output", { id: "state" }, JSON.stringify(s)));
+}
+ReactDOM.createRoot(document.getElementById("app")).render(h(App));
+</script></body></html>

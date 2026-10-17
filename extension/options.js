@@ -69,4 +69,10 @@ $("#reset").onclick = () => {
   if ($("#reset").dataset.armed) { state = { profile: { ...APPLYFILL_DEFAULTS.profile }, library: structuredClone(APPLYFILL_DEFAULTS.library), settings: { ...APPLYFILL_DEFAULTS.settings, apiKey: state.settings.apiKey } }; draw(); delete $("#reset").dataset.armed; $("#reset").textContent = "Reset to defaults"; say("Reset. Press Save to keep it."); }
   else { $("#reset").dataset.armed = "1"; $("#reset").textContent = "Press again to reset"; }
 };
+$("#exportLog").onclick = () => chrome.storage.local.get("fillLog", ({ fillLog = [] }) => {
+  const url = URL.createObjectURL(new Blob([JSON.stringify({ applyfillLog: 1, applications: fillLog }, null, 2)], { type: "application/json" }));
+  const a = Object.assign(document.createElement("a"), { href: url, download: `applyfill-log-${new Date().toISOString().slice(0, 10)}.json` }); a.click(); URL.revokeObjectURL(url);
+  say(`Exported ${fillLog.length} application${fillLog.length === 1 ? "" : "s"}`);
+});
+chrome.storage.local.get("fillLog", ({ fillLog = [] }) => $("#logCount").textContent = `${fillLog.length} application${fillLog.length === 1 ? "" : "s"} logged`);
 load();

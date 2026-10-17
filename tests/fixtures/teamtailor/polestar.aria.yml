@@ -1,0 +1,259 @@
+- link "Skip to main content":
+  - /url: "#main-content"
+- status
+- banner:
+  - button "Career menu"
+  - link "Polestar career site":
+    - /url: https://about.polestar.com/careers/
+    - img "Polestar career site"
+  - button "Share page"
+- main:
+  - text: Customer Experience · Beesd, Netherlands
+  - heading "Head of Customer Engagement Benelux" [level=1]
+  - heading "Join Polestar as Head of Customer Engagement Benelux to shape seamless customer journeys, build lasting loyalty, and lead a team creating a premium experience across every touchpoint." [level=2]
+  - button "Apply for this job"
+  - button "Scroll to content"
+  - heading "Let us describe the challenge we offer" [level=3]:
+    - strong: Let us describe the challenge we offer
+  - paragraph:
+    - text: We are looking for an experienced
+    - strong: Head of Customer Engagement
+    - text: to lead and elevate the customer journey across the Benelux region.
+  - paragraph: In this role, you will be responsible for creating a seamless and premium customer experience across all touchpoints, driving customer loyalty, advocacy, and business growth. You will lead the Customer Experience function, translate customer insights into meaningful improvements, and ensure strong alignment between customer needs and business objectives.
+  - paragraph: A key part of the role is owning the customer communication framework and CRM strategy across the customer lifecycle. Working closely with Sales and Marketing teams, you will ensure customers receive the right communication through the right channels at the right time, creating a consistent and engaging experience.
+  - heading "What you'll do" [level=3]:
+    - strong: What you'll do
+  - list:
+    - listitem:
+      - paragraph: Own and continuously improve the end-to-end customer journey across all touchpoints.
+    - listitem:
+      - paragraph: Lead the Customer Experience operation across the Benelux markets, ensuring premium service delivery and strong operational performance.
+    - listitem:
+      - paragraph: Drive Voice of the Customer initiatives and translate insights into tangible improvements.
+    - listitem:
+      - paragraph: Develop customer loyalty, retention, and community engagement strategies.
+    - listitem:
+      - paragraph: Define and optimize customer communication journeys and CRM programmes across the customer lifecycle.
+    - listitem:
+      - paragraph: Partner with Sales and Marketing to coordinate customer communications and engagement strategies.
+    - listitem:
+      - paragraph: Monitor and improve key performance indicators, including customer satisfaction, service levels, employee engagement, and operational efficiency.
+    - listitem:
+      - paragraph: Lead, coach, and develop a high-performing customer-centric team.
+    - listitem:
+      - paragraph: Collaborate closely with regional and global stakeholders to deliver a consistent customer experience.
+  - paragraph
+  - heading "Who you are" [level=3]:
+    - strong: Who you are
+  - list:
+    - listitem:
+      - paragraph: Bachelor's or Master's degree in Business, Marketing, Customer Experience, or a related field.
+    - listitem:
+      - paragraph: Proven leadership experience within Customer Experience, CRM, customer operations, or related customer-facing functions.
+    - listitem:
+      - paragraph: Strong knowledge of customer journey management, CRM strategy, customer engagement, and lifecycle communication.
+    - listitem:
+      - paragraph: Experience working with customer data and insights to drive business decisions and improve customer outcomes.
+    - listitem:
+      - paragraph: Strong stakeholder management skills with the ability to influence across functions and markets.
+    - listitem:
+      - paragraph: Excellent communication and leadership capabilities in a dynamic, fast-paced environment.
+    - listitem:
+      - paragraph: Experience within the Automotive Industry is a strong asset.
+    - listitem:
+      - paragraph: Strong knowledge of Dutch and English is required. As you are responsible for the Benelux region, you will also need to travel regularly to our Polestar office in Belgium (Brussel).
+  - paragraph: At Polestar, you will be part of a cross-functional and international team, with English as a natural language for written and spoken communication. Since Polestar’s in a scale-up phase you thrive by working in a fast-paced environment.
+  - paragraph
+  - heading "People at Polestar" [level=3]:
+    - strong: People at Polestar
+  - paragraph: We know that a change is needed. We also know that each one of us can help bring about that change. Our commitment to becoming climate-neutral by 2040 is just as important to us as being inclusive, diverse, and innovative. Together, we are creating, collaborating and experimenting to usher in a new era of sustainable mobility.
+  - paragraph: We are an electric performance brand, determined to improve the society we live in.
+  - paragraph
+  - heading "Is this you?" [level=3]:
+    - strong: Is this you?
+  - paragraph: If you are interested in joining the Polestar crew, don't wait with submitting your application. We apply a continuous selection process and the job post will be open until the position is filled.
+  - paragraph: Are you ready for the journey? Which is electric by the way...
+  - term: Department
+  - definition:
+    - link "Customer Experience":
+      - /url: https://polestar.teamtailor.com/departments/customer-experience
+  - term: Location
+  - definition: Beesd, Netherlands
+  - term: Employment type
+  - definition: Full-time
+  - heading "Beesd, Netherlands" [level=2]
+  - heading "Our job openings" [level=1]
+  - list:
+    - listitem:
+      - link "Head of Customer Engagement Benelux":
+        - /url: https://polestar.teamtailor.com/jobs/8550506-head-of-customer-engagement-benelux
+      - text: Customer Experience · Brussels, Belgium
+    - listitem:
+      - link "Aftersales Lead | Norway":
+        - /url: https://polestar.teamtailor.com/jobs/8040532-aftersales-lead-norway
+      - text: Customer Experience · Oslo, Norway
+    - listitem:
+      - link "Customer Engagement Advisor":
+        - /url: https://polestar.teamtailor.com/jobs/6595224-customer-engagement-advisor
+      - text: Customer Experience · Bicester, UK
+  - link "More jobs":
+    - /url: /jobs
+  - heading "About Polestar" [level=2]
+  - paragraph: Join a global team dedicated to improving the societies we live in through sustainable, electric mobility.
+  - text: Founded in 2017 Co-workers 1700
+  - button "Apply for this job" [disabled]
+  - dialog "Apply for this job":
+    - text: Customer Experience · Beesd, Netherlands
+    - heading "Head of Customer Engagement Benelux" [level=1]
+    - heading "Join Polestar as Head of Customer Engagement Benelux to shape seamless customer journeys, build lasting loyalty, and lead a team creating a premium experience across every touchpoint." [level=2]
+    - group "Are you comfortable working in English? Required":
+      - text: Are you comfortable working in English? Required
+      - radio "Yes"
+      - text: "Yes"
+      - radio "No"
+      - text: "No"
+    - group "Are you comfortable working in Dutch? Required":
+      - text: Are you comfortable working in Dutch? Required
+      - radio "Yes"
+      - text: "Yes"
+      - radio "No"
+      - text: "No"
+    - group "Do you have a valid driver's license? Required":
+      - text: Do you have a valid driver's license? Required
+      - radio "Yes"
+      - text: "Yes"
+      - radio "No"
+      - text: "No"
+    - group "Are you legally permitted to work in the country where this job is located? Required If yes, please upload a copy of your valid work permit with your application.":
+      - text: Are you legally permitted to work in the country where this job is located? Required If yes, please upload a copy of your valid work permit with your application.
+      - radio "Yes, I am authorized to work permanently in the country."
+      - text: Yes, I am authorized to work permanently in the country.
+      - radio "I have an active temporary work permit."
+      - text: I have an active temporary work permit.
+      - radio "No, but I have an ongoing application for a work permit."
+      - text: No, but I have an ongoing application for a work permit.
+      - radio "I am currently not eligible."
+      - text: I am currently not eligible.
+    - text: Why are you applying for this particular position? Required
+    - textbox "Why are you applying for this particular position? Required"
+    - text: What can you add/bring to Polestar with your background and work experience? Required
+    - textbox "What can you add/bring to Polestar with your background and work experience? Required"
+    - group "Are you currently working at Polestar? Required":
+      - text: Are you currently working at Polestar? Required
+      - radio "Yes"
+      - text: "Yes"
+      - radio "No"
+      - text: "No"
+    - heading "Personal information" [level=2]
+    - text: We screen candidates anonymously. We will not see your personal information before your application has been moved forward in the process.
+    - button "Apply with LinkedIn"
+    - text: First name Required
+    - textbox "First name Required"
+    - text: Last name Required
+    - textbox "Last name Required"
+    - text: Email Required
+    - textbox "Email Required"
+    - text: Phone Required
+    - button "Change country, selected Netherlands (+31)"
+    - textbox "Phone number with country code":
+      - /placeholder: +31 6 12345678
+    - text: Upload CV Required Drop your file or upload
+    - button "Drop your file or upload, Upload CV"
+    - text: Additional files Drop your file or upload
+    - button "Drop your file or upload, Additional files"
+    - text: Cover letter
+    - textbox "Cover letter"
+    - checkbox "Required. I have read the Privacy Policy and confirm that Polestar can store my personal data in order to process my job application. I am aware that all data will be stored and processed inside the EU/EEA."
+    - text: Required.
+    - paragraph:
+      - text: I have read the
+      - link "Privacy Policy":
+        - /url: https://polestar.teamtailor.com/privacy-policy
+      - text: and confirm that Polestar can store my personal data in order to process my job application. I am aware that all data will be stored and processed inside the EU/EEA.
+    - checkbox "Yes, Polestar can also contact me for future job opportunities over the next year. I am aware that I can withdraw my consent at any time."
+    - paragraph: Yes, Polestar can also contact me for future job opportunities over the next year. I am aware that I can withdraw my consent at any time.
+    - checkbox "Polestar can use my phone number for recruiting-related communication via SMS."
+    - text: Polestar can use my phone number for recruiting-related communication via SMS.
+    - paragraph: Message frequency varies, and message and data rates may apply. Reply STOP to unsubscribe.
+    - button "Submit application"
+    - button "Close modal"
+- contentinfo:
+  - heading "Career site" [level=2]
+  - list:
+    - listitem:
+      - link "Polestar":
+        - /url: https://about.polestar.com/careers/
+    - listitem:
+      - link "Locations":
+        - /url: https://polestar.teamtailor.com/locations
+    - listitem:
+      - link "All jobs":
+        - /url: https://polestar.teamtailor.com/jobs
+    - listitem:
+      - link "Data & privacy":
+        - /url: /data-privacy
+    - listitem:
+      - button "Manage cookies"
+  - heading "Locations" [level=2]
+  - list:
+    - listitem:
+      - link "Le Havre, France":
+        - /url: https://polestar.teamtailor.com/locations/le-havre-france
+    - listitem:
+      - link "Amsterdam, Netherlands":
+        - /url: https://polestar.teamtailor.com/locations/amsterdam-netherlands-2fe057d6-8c66-41cd-94d0-a22268ab2924
+    - listitem:
+      - link "Lisbon, Portugal":
+        - /url: https://polestar.teamtailor.com/locations/lisbon-portugal
+    - listitem:
+      - link "Bicester, UK":
+        - /url: https://polestar.teamtailor.com/locations/bicester-uk
+    - listitem:
+      - link "Malmö, Sweden":
+        - /url: https://polestar.teamtailor.com/locations/malmo-sweden
+    - listitem:
+      - link "Barcelona, Spain":
+        - /url: https://polestar.teamtailor.com/locations/barcelona-spain
+    - listitem:
+      - link "All locations":
+        - /url: /locations
+  - heading "Departments" [level=2]
+  - list:
+    - listitem:
+      - link "Sustainability":
+        - /url: https://polestar.teamtailor.com/departments/sustainability
+    - listitem:
+      - link "Digital":
+        - /url: https://polestar.teamtailor.com/departments/digital
+    - listitem:
+      - link "Communications & PR":
+        - /url: https://polestar.teamtailor.com/departments/communications-pr
+    - listitem:
+      - link "Research & Development":
+        - /url: https://polestar.teamtailor.com/departments/research-development
+    - listitem:
+      - link "Customer Experience":
+        - /url: https://polestar.teamtailor.com/departments/customer-experience
+    - listitem:
+      - link "Global Sales":
+        - /url: https://polestar.teamtailor.com/departments/global-sales
+    - listitem:
+      - link "Student Opportunities":
+        - /url: https://polestar.teamtailor.com/departments/student-opportunities
+  - heading "Polestar" [level=2]
+  - list:
+    - listitem:
+      - link "Polestar":
+        - /url: https://polestar.teamtailor.com
+  - link "polestar.com":
+    - /url: http://www.polestar.com
+  - link "Employee login":
+    - /url: /sso_login
+  - link "Candidate Connect login":
+    - /url: /connect/login
+- heading "Already working at Polestar?" [level=2]
+- paragraph: Let’s recruit together and find your next colleague.
+- button "Log in"
+- complementary "Applicant tracking system by Teamtailor":
+  - link "Applicant tracking system by Teamtailor":
+    - /url: https://www.teamtailor.com/?utm_campaign=poweredby&utm_content=polestar.teamtailor.com&utm_medium=referral&utm_source=career-site

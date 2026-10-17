@@ -1,0 +1,22 @@
+{
+ "ashby": {
+  "precision": 1,
+  "recall": 0.9583333333333334
+ },
+ "greenhouse": {
+  "precision": 1,
+  "recall": 0.9743589743589743
+ },
+ "lever": {
+  "precision": 1,
+  "recall": 0.8787878787878788
+ },
+ "teamtailor": {
+  "precision": 1,
+  "recall": 0.7777777777777778
+ },
+ "webitrent": {
+  "precision": 1,
+  "recall": 1
+ }
+}

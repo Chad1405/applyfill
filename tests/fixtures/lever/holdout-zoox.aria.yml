@@ -1,0 +1,163 @@
+- heading "Administrative Business Partner, Floater" [level=2]
+- text: Foster City, CA Executive Office – Executive Office / Full-time / Hybrid
+- heading "Submit your application" [level=4]
+- list:
+  - listitem:
+    - text: Resume/CV ✱
+    - link "ATTACH RESUME/CV Resume/CV ✱":
+      - /url: "#"
+      - img
+      - text: ATTACH RESUME/CV
+      - button "Resume/CV ✱ ATTACH RESUME/CV"
+  - listitem:
+    - text: Full name ✱
+    - textbox "Full name ✱"
+  - listitem:
+    - text: Pronouns
+    - list:
+      - listitem:
+        - checkbox "He/him"
+        - text: He/him
+      - listitem:
+        - checkbox "She/her"
+        - text: She/her
+      - listitem:
+        - checkbox "They/them"
+        - text: They/them
+      - listitem:
+        - checkbox "Xe/xem"
+        - text: Xe/xem
+      - listitem:
+        - checkbox "Ze/hir"
+        - text: Ze/hir
+      - listitem:
+        - checkbox "Ey/em"
+        - text: Ey/em
+      - listitem:
+        - checkbox "Hir/hir"
+        - text: Hir/hir
+      - listitem:
+        - checkbox "Fae/faer"
+        - text: Fae/faer
+      - listitem:
+        - checkbox "Hu/hu"
+        - text: Hu/hu
+      - separator
+      - listitem:
+        - checkbox "Use name only"
+        - text: Use name only
+      - separator
+      - listitem:
+        - checkbox "Custom"
+        - text: Custom
+      - paragraph: Let the employer know what pronouns you use so that they can address you correctly.
+  - listitem:
+    - text: Email ✱
+    - textbox "Email ✱"
+  - listitem:
+    - text: Phone ✱
+    - textbox "Phone ✱"
+  - listitem:
+    - text: Current location
+    - textbox "Current location"
+  - listitem:
+    - text: Current company
+    - textbox "Current company"
+- heading "Links" [level=4]
+- list:
+  - listitem:
+    - text: LinkedIn URL
+    - textbox "LinkedIn URL"
+  - listitem:
+    - text: Other website
+    - textbox "Other website"
+- heading "A few more questions..." [level=4]
+- list:
+  - listitem:
+    - text: What is your preferred first name and last name? If your legal first and last name is your preferred name, you do not need to respond.
+    - textbox
+  - listitem:
+    - text: "Export Control and Compliance: For the sole purpose of determining export licensing requirements, please list any countries of which you are a citizen or legal permanent resident, and when you obtained such status. ✱"
+    - textbox
+  - listitem:
+    - text: "Sponsorship: Do you require sponsorship, or will you require sponsorship in the future for employment authorization in the United States? ✱"
+    - combobox:
+      - option "Select..." [selected]
+      - option "Yes"
+      - option "No"
+  - listitem:
+    - text: How did you hear about us? ✱
+    - list:
+      - listitem:
+        - checkbox "Zoox Ads / Social Media"
+        - text: Zoox Ads / Social Media
+      - listitem:
+        - checkbox "LinkedIn"
+        - text: LinkedIn
+      - listitem:
+        - checkbox "Event, Media Interview, or other PR"
+        - text: Event, Media Interview, or other PR
+      - listitem:
+        - checkbox "Recruiter Outreach"
+        - text: Recruiter Outreach
+      - listitem:
+        - checkbox "Employee Referral"
+        - text: Employee Referral
+      - listitem:
+        - checkbox "CVPR Conference"
+        - text: CVPR Conference
+      - listitem:
+        - checkbox "SHPE Conference"
+        - text: SHPE Conference
+      - listitem:
+        - checkbox "Other"
+        - text: Other
+  - listitem:
+    - text: If you attended an on-campus or virtual event, which did you attend?
+    - textbox "Type your response"
+- separator
+- heading "U.S. Equal Employment Opportunity information (Completion is voluntary and will not subject you to adverse treatment)" [level=4]
+- paragraph: Our company values diversity. To ensure that we comply with reporting requirements and to learn more about how we can increase diversity in our candidate pool, we invite you to voluntarily provide demographic information in a confidential survey at the end of this application. Providing this information is optional. It will not be accessible or used in the hiring process, and has no effect on your opportunity for employment.
+- text: Gender
+- combobox "Gender":
+  - option "Select ..." [selected]
+  - option "Male"
+  - option "Female"
+  - option "Decline to self-identify"
+- text: Race
+- link "Click to see details about each option.":
+  - /url: javascript:void(0)
+  - img
+- combobox "Race Click to see details about each option.":
+  - option "Select ..." [selected]
+  - option "Hispanic or Latino"
+  - option "White (Not Hispanic or Latino)"
+  - option "Black or African American (Not Hispanic or Latino)"
+  - option "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)"
+  - option "Asian (Not Hispanic or Latino)"
+  - option "American Indian or Alaska Native (Not Hispanic or Latino)"
+  - option "Two or More Races (Not Hispanic or Latino)"
+  - option "Decline to self-identify"
+- text: Veteran status
+- combobox "Veteran status":
+  - option "Select ..." [selected]
+  - option "I am a veteran"
+  - option "I am not a veteran"
+  - option "Decline to self-identify"
+- separator
+- list:
+  - listitem:
+    - paragraph:
+      - text: By applying for this position, your data will be processed as per Zoox
+      - link "Privacy Policy":
+        - /url: https://zoox.com/privacy/
+      - text: .
+- button "Submit application"
+- paragraph:
+  - link "Zoox Home Page":
+    - /url: http://zoox.com
+- paragraph: We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+- link "Jobs powered by Lever logo":
+  - /url: https://www.lever.co/job-seeker-support/
+  - text: Jobs powered by
+  - img "Lever logo"

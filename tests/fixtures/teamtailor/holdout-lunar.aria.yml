@@ -1,0 +1,178 @@
+- link "Skip to main content":
+  - /url: "#main-content"
+- status
+- banner:
+  - button "Career menu"
+  - link "Lunar":
+    - /url: https://jobs.lunar.app/
+  - button "Share page"
+- main:
+  - text: FCP · Copenhagen, Denmark
+  - heading "Team Lead, Ongoing Due Diligence" [level=1]
+  - button "Apply for this job"
+  - button "Scroll to content"
+  - paragraph: Banking is changing, and we're building the bank that's driving that change. Lunar is a Nordic challenger bank, founded in Copenhagen in 2015, with offices in Copenhagen, Aarhus, and Stockholm. We're putting AI at the core of how we build and run the bank, but knowing exactly who we're doing business with still comes down to people, and that's what this team does.
+  - paragraph: "The ODD team makes sure Lunar knows who it's doing business with. As Team Lead, you'll run the day-to-day of our ODD specialists, the team digging into ownership structures, source of funds, and risk indicators before and during a customer relationship. This is a people-leadership role first: you're accountable for the team's output and quality, not doing the casework yourself. You'll report to our Director of FCP Operations."
+  - paragraph:
+    - strong: What will you do?
+  - list:
+    - listitem:
+      - paragraph: Lead the ODD specialist team day-to-day, managing workload, setting priorities, and keeping delivery on track against SLAs.
+    - listitem:
+      - paragraph: "Own formal performance management for the team: regular reviews, direct feedback, and addressing underperformance early rather than letting it drift."
+    - listitem:
+      - paragraph: Track SLA and quality metrics closely, so you catch where the team is drifting before it shows up in the numbers.
+    - listitem:
+      - paragraph: Act as the escalation point for complex or ambiguous cases, including flagging potential regulatory deviations upward before they become disclosures, and make sure the team applies ODD policy and procedure consistently, understanding the regulatory logic, not just the steps.
+    - listitem:
+      - paragraph: Represent ODD in the wider FCP/Onboarding leadership forum, flagging risks and resourcing needs upward.
+  - paragraph:
+    - strong: What are we looking for in you?
+  - list:
+    - listitem:
+      - paragraph: Experience leading a team in an operational KYC/AML-adjacent function.
+    - listitem:
+      - paragraph: Strong people skills, this role is about leading people who lead numbers, not just managing a queue.
+    - listitem:
+      - paragraph: Solid working knowledge of ODD/EDD practices and the regulatory logic behind them, not just the checklist.
+    - listitem:
+      - paragraph: "Comfortable with data: you use SLA and quality metrics to catch problems early, not just to report on them after the fact."
+    - listitem:
+      - paragraph: Fluent in Danish and English. Swedish is an advantage, as we onboard customers in both the Danish and Swedish markets.
+  - paragraph:
+    - strong: Benefits and perks
+  - list:
+    - listitem:
+      - paragraph: 4 days in the office. We're a team that builds together, thinks together, and moves together. Showing up is part of how we work.
+    - listitem:
+      - paragraph: State of the art equipment. The newest computer, monitor, mouse, and keyboard. We want you to do your best work without anything slowing you down.
+    - listitem:
+      - paragraph: Pension, health insurance, and enhanced parental leave. From your financial future to your family moments. We've got you covered.
+  - paragraph:
+    - strong: Are you ready to join the journey? Apply now and let's find out more!
+  - paragraph:
+    - emphasis: While you hold on tight for us to get back to you, curious to see what we’re up to? Follow us on
+    - link "LinkedIn":
+      - /url: https://www.linkedin.com/company/lunarbank/mycompany/?viewAsMember=true
+      - emphasis: LinkedIn
+    - emphasis: for business announcements and releases 📢, check out our
+    - link "Instagram":
+      - /url: https://www.instagram.com/lifeatlunar/?hl=enlunar%20blog
+      - emphasis: Instagram
+    - emphasis: for an inside scoop on what it’s like to work here .
+  - paragraph:
+    - emphasis: Depending on the regulations in the country where you will be employed, we will ask to see or obtain information about your criminal record.
+    - emphasis: Please note that our employment is conditional upon you
+    - text: not
+    - emphasis: being registered in RKI (Ribers Kredit Information).
+  - paragraph:
+    - emphasis: We welcome applications from candidates of all backgrounds. If you need any adjustments during the recruitment process, please let us know
+    - emphasis
+  - term: Department
+  - definition: FCP
+  - term: Location
+  - definition: Copenhagen, Denmark
+  - heading "Join the Journey." [level=1]
+  - list:
+    - listitem:
+      - link "Team Lead, Onboarding (CDD) FCP · Copenhagen, Denmark":
+        - /url: https://jobs.lunar.app/jobs/8561451-team-lead-onboarding-cdd
+        - figure:
+          - img "Team Lead, Onboarding (CDD) image"
+        - text: Team Lead, Onboarding (CDD) FCP · Copenhagen, Denmark
+    - listitem:
+      - link "FCP Specialist (Danish & Swedish speaking) FCP · Copenhagen, Denmark":
+        - /url: https://jobs.lunar.app/jobs/8517944-fcp-specialist-danish-swedish-speaking
+        - figure:
+          - img "FCP Specialist (Danish & Swedish speaking) image"
+        - text: FCP Specialist (Danish & Swedish speaking) FCP · Copenhagen, Denmark
+    - listitem:
+      - link "Fraud Specialist (Danish & Swedish Speaking) FCP · Copenhagen, Denmark":
+        - /url: https://jobs.lunar.app/jobs/8517861-fraud-specialist-danish-swedish-speaking
+        - figure:
+          - img "Fraud Specialist (Danish & Swedish Speaking) image"
+        - text: Fraud Specialist (Danish & Swedish Speaking) FCP · Copenhagen, Denmark
+  - link "More jobs":
+    - /url: /jobs
+  - heading "Copenhagen, Denmark" [level=2]
+  - heading "About Lunar" [level=2]
+  - paragraph: Lunar is a fully licensed digital bank founded in 2015, with offices in Copenhagen, Aarhus and Stockholm. We're 400+ people building cloud-native, real-time financial services for millions of users across Denmark, Sweden, and Norway.
+  - paragraph: Our mission is to pioneer financial empowerment. A world where money works for you, enabling you to live your best life, free from worry. That's what gets us out of bed every day.
+  - paragraph: We build on cloud-native infrastructure with modern technologies across our full stack. We hire across Tech, Design, Product, Finance, Marketing, Compliance, and Customer Excellence. No legacy systems. No old habits. Just a better way to build banking across the Nordics.
+  - paragraph: It's time to make your move.
+  - button "Apply for this job" [disabled]
+  - dialog "Apply for this job":
+    - text: FCP · Copenhagen, Denmark
+    - heading "Team Lead, Ongoing Due Diligence" [level=1]
+    - text: Where did you first hear about Lunar and this position? Required This question is used for employer branding purposes to understand what platform you used when discovering Lunar and how we caught your interest.
+    - textbox "Where did you first hear about Lunar and this position? Required"
+    - text: Insert your Linkedin profile Required
+    - textbox "Insert your Linkedin profile Required"
+    - text: If you are not currently authorized to work in Denmark or Sweden, or if you require sponsorship, please briefly explain your situation and any assistance you might need (e.g., visa application support). Required
+    - textbox "If you are not currently authorized to work in Denmark or Sweden, or if you require sponsorship, please briefly explain your situation and any assistance you might need (e.g., visa application support). Required"
+    - text: At Lunar, we want to be competitive and fair in our offers. Could you share what salary range you’d be comfortable with? (DKK/SEK month, excluding pension) Required
+    - textbox "At Lunar, we want to be competitive and fair in our offers. Could you share what salary range you’d be comfortable with? (DKK/SEK month, excluding pension) Required"
+    - heading "Personal information" [level=2]
+    - iframe
+    - text: First name Required
+    - textbox "First name Required"
+    - text: Last name Required
+    - textbox "Last name Required"
+    - text: Email Required
+    - textbox "Email Required"
+    - text: Phone Required
+    - button "Change country, selected Denmark (+45)"
+    - textbox "Phone number with country code":
+      - /placeholder: +45 34 41 23 45
+    - text: Upload CV Required Drop your file or upload
+    - button "Drop your file or upload, Upload CV"
+    - text: Cover letter
+    - textbox "Cover letter"
+    - checkbox "Required. I have read the Privacy Policy and confirm that Lunar store my personal details to be able to process my job application"
+    - text: Required.
+    - paragraph:
+      - text: I have read the
+      - link "Privacy Policy":
+        - /url: https://jobs.lunar.app/privacy-policy
+      - text: and confirm that Lunar store my personal details to be able to process my job application
+    - button "Submit application"
+    - button "Close modal"
+- contentinfo:
+  - heading "Career site" [level=2]
+  - list:
+    - listitem:
+      - link "Start":
+        - /url: https://jobs.lunar.app/
+    - listitem:
+      - link "Jobs":
+        - /url: https://jobs.lunar.app/jobs
+    - listitem:
+      - link "Data & privacy":
+        - /url: /data-privacy
+    - listitem:
+      - button "Manage cookies"
+  - link "lunar.app/en/":
+    - /url: https://lunar.app/en/
+  - link "LinkedIn":
+    - /url: https://www.linkedin.com/company/lunarbank/
+  - link "Instagram":
+    - /url: https://www.instagram.com/lifeatlunar
+  - link "Employee login":
+    - /url: /sso_login
+  - link "Candidate Connect login":
+    - /url: /connect/login
+- heading "Already working at Lunar?" [level=2]
+- paragraph: Let’s recruit together and find your next colleague.
+- button "Log in"
+- list:
+  - listitem
+  - listitem
+  - listitem
+  - listitem
+  - listitem
+  - listitem
+  - listitem
+  - listitem
+- complementary "Applicant tracking system by Teamtailor":
+  - link "Applicant tracking system by Teamtailor":
+    - /url: https://www.teamtailor.com/?utm_campaign=poweredby&utm_content=jobs.lunar.app&utm_medium=referral&utm_source=career-site
