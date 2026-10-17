@@ -1,0 +1,5 @@
+dist/
+*.zip
+# personal backups exported from the Options page
+*backup*.json
+.DS_Store
