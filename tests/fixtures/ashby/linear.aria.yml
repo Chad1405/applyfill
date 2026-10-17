@@ -1,0 +1,98 @@
+- list:
+  - listitem:
+    - link "Linear":
+      - /url: https://linear.app/
+      - img "Linear"
+  - listitem:
+    - link "Back to Linear’s Job Listings":
+      - /url: /linear
+      - img
+  - listitem
+- heading "Senior / Staff Fullstack Engineer" [level=1]
+- heading "Location" [level=2]
+- paragraph: Europe
+- heading "Employment Type" [level=2]
+- paragraph: Full time
+- heading "Location Type" [level=2]
+- paragraph: Remote
+- heading "Department" [level=2]
+- paragraph: Product
+- tablist:
+  - tab "Overview"
+  - tab "Application" [selected]
+- tabpanel "Application":
+  - button "Choose File"
+  - img
+  - heading "Autofill from resume" [level=3]
+  - paragraph: Upload your resume here to autofill key application fields.
+  - button "Upload file"
+  - heading "Contact Details" [level=2]
+  - text: Name*
+  - textbox "Name*":
+    - /placeholder: Type here...
+  - text: Email*
+  - textbox "Email*":
+    - /placeholder: hello@example.com...
+  - text: Resume*
+  - button "Resume*"
+  - button "Upload File":
+    - img
+    - text: Upload File
+  - paragraph: or drag and drop here
+  - text: Cover letter*
+  - paragraph: Tell us why you want to join our team!
+  - textbox "Cover letter*":
+    - /placeholder: Type here...
+  - heading "Links" [level=2]
+  - text: Github *
+  - paragraph: Please provide your GitHub username. We'll need this info to host final interview rounds.
+  - textbox "Github *":
+    - /placeholder: Type here...
+  - text: LinkedIn
+  - paragraph: Please provide the link to your LinkedIn profile.
+  - textbox "LinkedIn":
+    - /placeholder: Type here...
+  - text: X
+  - paragraph: Please provide the link to your X profile.
+  - textbox "X":
+    - /placeholder: Type here...
+  - heading "Location" [level=2]
+  - text: Are you based in a EU or equivalent timezone?*
+  - button "Yes"
+  - button "No"
+  - text: What country are you based in?*
+  - textbox "What country are you based in?*":
+    - /placeholder: Type here...
+  - text: Notice Period*
+  - paragraph: What is your expected notice period?
+  - textbox "Notice Period*":
+    - /placeholder: Type here...
+  - heading "Tell us more" [level=2]
+  - paragraph: We would like to learn more about your motivations, interests, and strengths. Please answer each question in 500 words or less.
+  - text: What would you want to work on? Tell us about the features you would want to implement in your first month.*
+  - textbox "What would you want to work on? Tell us about the features you would want to implement in your first month.*":
+    - /placeholder: Type here...
+  - text: Tell us of a time you had to put your PM hat on to solve a complex product problem.*
+  - textbox "Tell us of a time you had to put your PM hat on to solve a complex product problem.*":
+    - /placeholder: Type here...
+  - text: What are you extremely good at? What could you teach the team?*
+  - textbox "What are you extremely good at? What could you teach the team?*":
+    - /placeholder: Type here...
+  - text: "Has someone at Linear referred you for this role? If so, please include their name here:"
+  - textbox "Has someone at Linear referred you for this role? If so, please include their name here:":
+    - /placeholder: Type here...
+  - button "Submit Application":
+    - text: Submit Application
+    - img
+- contentinfo:
+  - link "Learn more about Ashby":
+    - /url: https://www.ashbyhq.com
+    - text: Powered by
+    - img "Ashby"
+  - paragraph:
+    - link "Privacy Policy":
+      - /url: https://www.ashbyhq.com/privacy
+    - link "Security":
+      - /url: https://www.ashbyhq.com/security
+    - link "Vulnerability Disclosure":
+      - /url: https://www.ashbyhq.com/disclosure

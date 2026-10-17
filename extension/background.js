@@ -1,14 +1,14 @@
 // Injects the scanner when you click the toolbar icon or press Alt+Shift+F,
 // and makes the Claude API calls (the API key never touches the web page).
 
-importScripts("defaults.js");
+importScripts("defaults.js", "prompt.js");
 
 chrome.runtime.onInstalled.addListener(({ reason }) => {
   if (reason === "install") chrome.runtime.openOptionsPage();
 });
 
 async function inject(tabId) {
-  const files = ["defaults.js", "content.js"];
+  const files = ["defaults.js", "fields.js", "content.js"];
   try {
     await chrome.scripting.executeScript({ target: { tabId, allFrames: true }, files });
   } catch (e) {
@@ -24,7 +24,7 @@ chrome.action.onClicked.addListener(async (tab) => {
 
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   const reply = p => p.then(r => sendResponse({ ok: true, ...r }), err => sendResponse({ ok: false, error: String(err.message || err) }));
-  if (msg && msg.type === "applyfill:draft") { reply(draft(msg).then(text => ({ text }))); return true; }
+  if (msg && msg.type === "applyfill:draft") { reply(draft(msg)); return true; }
   if (msg && msg.type === "applyfill:setup") { reply(setupFromCv(msg).then(data => ({ data }))); return true; }
   if (msg && msg.type === "applyfill:options") { chrome.runtime.openOptionsPage(); }
 });
@@ -54,20 +54,12 @@ async function callClaude({ apiKey, model, system, user, maxTokens }) {
   return (data.content || []).filter(b => b.type === "text").map(b => b.text).join("").trim();
 }
 
-async function draft({ question, company, role, pageText, maxChars }) {
+async function draft(msg) {
   const { settings: s, profile } = await loadState();
-  const limit = maxChars ? `Keep it under ${maxChars} characters.` : "Keep it to about 120 to 180 words unless the question clearly needs a one-line answer.";
-  const system = "You write answers to job application questions on behalf of the candidate, in the first person, in plain English matching the candidate's spelling conventions. Use only facts from the candidate's CV and profile; never invent employers, numbers or qualifications. If the CV doesn't cover something the question asks, write a short honest answer the candidate can edit, and put [CHECK] where they need to add a detail. No headings, no bullet points unless the question asks for a list, no sign-off.";
-  const user = [
-    `Company: ${company || "unknown"}`,
-    role ? `Role: ${role}` : "",
-    `Question on the form: ${question}`,
-    limit, "",
-    "Candidate CV:", s.cvText || "(none provided)", "",
-    "Candidate profile (JSON):", JSON.stringify(profile), "",
-    pageText ? "Text from the job page, for context:\n" + pageText.slice(0, 6000) : ""
-  ].filter(Boolean).join("\n");
-  return callClaude({ apiKey: s.apiKey, model: s.model, system, user });
+  const own = { cvText: s.cvText, profile };
+  const { system, user } = APPLYFILL_PROMPT.draft({ ...msg, ...own });
+  const text = await callClaude({ apiKey: s.apiKey, model: s.model, system, user });
+  return { text, unexpected: APPLYFILL_PROMPT.unexpected(text, own) };
 }
 
 // One-off setup: read the CV text and return profile fields plus saved answers written from it.

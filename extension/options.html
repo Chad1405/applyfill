@@ -66,6 +66,11 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
     <div class="actions"><button class="ghost" id="export">Export backup</button><label class="ghost-file"><input type="file" id="importFile" accept="application/json,.json" class="sr"><span>Restore from a file</span></label><button class="ghost" id="reset">Reset to defaults</button></div>
   </section>
 
+  <section>
+    <div><h2>Fill log</h2><p class="note">Each time you fill a saved answer or a Claude draft, ApplyFill notes the company, role and which answer you used. Export it and press <b>Import ApplyFill log</b> in your AI Role Tracker to compare reply rates per answer. It stays in this browser until you export it.</p></div>
+    <div class="actions"><button class="ghost" id="exportLog">Export fill log</button><span class="note" id="logCount"></span></div>
+  </section>
+
   <div class="bar"><button id="save">Save</button><span id="status"></span></div>
 </main>
 <script src="defaults.js"></script>

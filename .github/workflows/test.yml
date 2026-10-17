@@ -1,0 +1,20 @@
+# Unit + accuracy tests (Vitest/jsdom) and end-to-end tests with the extension loaded (Playwright).
+# Fails if field-matching or fill accuracy drops below tests/baseline.json / tests/baseline-e2e.json.
+name: Test
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - name: Unit tests and matching accuracy
+        run: npx vitest run
+      - run: npx playwright install --with-deps chromium
+      - name: End-to-end (extension loaded; live-site checks skipped, Claude stubbed)
+        run: npx playwright test
+      - name: Accuracy report
+        if: always()
+        run: cat tests/accuracy-report.md >> "$GITHUB_STEP_SUMMARY"

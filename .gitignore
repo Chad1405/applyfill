@@ -3,3 +3,10 @@ dist/
 # personal backups exported from the Options page
 *backup*.json
 .DS_Store
+.scratch/
+node_modules/
+test-results/
+.capture-profile/
+tests/accuracy-report.md
+tests/e2e-report.json
+playwright-report/

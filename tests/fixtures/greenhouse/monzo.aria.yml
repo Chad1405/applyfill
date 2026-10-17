@@ -1,0 +1,281 @@
+- main:
+  - img "Monzo Logo"
+  - link "Back to jobs":
+    - /url: https://job-boards.greenhouse.io/monzo
+    - img
+    - text: Back to jobs
+  - heading "Anaplan Support Analyst" [level=1]
+  - img
+  - text: Cardiff, London or Remote (UK)
+  - button "Apply"
+  - paragraph:
+    - strong:
+      - emphasis: 🚀 We’re on a mission to make money work for everyone.
+  - paragraph: We’re waving goodbye to the complicated and confusing ways of traditional banking.
+  - paragraph:
+    - text: After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as
+    - link "personal":
+      - /url: https://monzo.com/current-account/personal
+    - text: and
+    - link "business":
+      - /url: https://monzo.com/business-banking
+    - text: bank accounts, we offer
+    - link "joint accounts":
+      - /url: https://monzo.com/current-account/joint-account
+    - text: ","
+    - link "accounts for 16-17 year olds":
+      - /url: https://monzo.com/current-account/16-17
+    - text: ", a"
+    - link "free kids account":
+      - /url: https://monzo.com/current-account/under-16s
+    - text: and
+    - link "credit cards":
+      - /url: https://monzo.com/flex
+    - text: in the UK, with more exciting things to come beyond. Our UK customers can also
+    - link "save":
+      - /url: https://monzo.com/savings
+    - text: ","
+    - link "invest":
+      - /url: https://monzo.com/investments
+    - text: and
+    - link "combine their pensions":
+      - /url: https://monzo.com/pensions
+    - text: with us.
+  - paragraph: With our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical moments for our customers!
+  - paragraph: We’re not about selling products - we want to solve problems and change lives through Monzo ❤️
+  - separator
+  - paragraph
+  - paragraph:
+    - text: 📍London or Remote (UK)| | 💰 £42,500 - £55,000 ➕ incentive awards tied to your performance |
+    - link "Benefits":
+      - /url: https://monzo.com/careers#benefits
+    - text: "|"
+    - link "Hear from the team":
+      - /url: https://www.youtube.com/watch?v=tDAT6VxoqQM
+  - heading "⭐ Our Finance & Anaplan Centre of Excellence Team" [level=3]:
+    - strong: ⭐ Our Finance & Anaplan Centre of Excellence Team
+  - paragraph:
+    - text: As an
+    - strong: Anaplan Support Analyst
+    - text: ", you will play a pivotal role in driving the success of our Anaplan platform and supporting our broader Centre of Excellence (CoE). Working directly alongside our Lead Solutions Architect, Model Builders, and the FP&A team, you will act as the key engine powering daily operations—managing change requests, facilitating user training, and getting hands-on with model building activities to enhance our financial planning ecosystem."
+  - heading "🔑 You’ll play a key role by…" [level=3]:
+    - strong: 🔑 You’ll play a key role by…
+  - list:
+    - listitem:
+      - strong: "Implementing Change Requests:"
+      - text: Managing, triaging, and delivering end-to-end Change Requests across our Anaplan models to ensure seamless business operations.
+    - listitem:
+      - strong: "Supporting Model Building:"
+      - text: Collaborating closely with Lead Solutions Architect and Model Builders to assist in building, testing, and implementing new functionalities and enhancements.
+    - listitem:
+      - strong: "Providing Training & Supporting End Users:"
+      - text: Designing and delivering engaging training sessions and documentation to upskill end-users across FP&A and Finance Business Partner teams.
+    - listitem:
+      - strong: "Maintaining & Optimising Models:"
+      - text: Maintaining data integrity, managing user access, monitoring model performance, and troubleshooting issues as they arise.
+  - heading "🤩 We’d love to hear from you if you have…" [level=3]:
+    - strong: 🤩 We’d love to hear from you if you have…
+  - list:
+    - listitem:
+      - strong: "Anaplan Expertise:"
+      - text: Hands-on experience supporting and maintaining Anaplan workspaces/models (Anaplan Level 2 Model Builder certification or equivalent is highly desirable).
+    - listitem:
+      - strong: "Managed Change Requests & Supported Systems:"
+      - text: Proven track record handling Change Requests, user support tickets, and system enhancements in a CoE or support structure.
+    - listitem:
+      - strong: "Model Building Skills:"
+      - text: Functional understanding of Anaplan model architecture and formula building, with the ability to assist in active model development.
+    - listitem:
+      - strong: "Experience Training Users:"
+      - text: Strong communication and facilitation skills, with a passion for training and empowering non-technical users on Anaplan functionality.
+    - listitem:
+      - strong: "An Understanding of Finance:"
+      - text: Solid foundational understanding of financial modelling, FP&A principles, or finance workflows.
+    - listitem:
+      - strong: AI Tooling
+      - text: ": Familiarity with AI tools, including the ability to write effective prompts. You should demonstrate curiosity for how AI can be used to improve processes and solve problems more effectively."
+    - listitem:
+      - strong: "Domain Experience:"
+      - text: Banking or financial services experience is a bonus, but not essential! We will consider candidates from non-financial industries
+  - paragraph:
+    - strong: 🙌 What’s in it for you
+    - strong
+  - paragraph: 💰 £42,500 - £55,000 + incentive awards tied to your performance
+  - paragraph: 📍 We're open to distributed working within the UK, with the expectation of working from the London office on occasional basis.
+  - paragraph: ⏰ We offer flexible working hours and trust you to work enough hours to do your job well, and at times that suit you and your team.
+  - paragraph: 📚 £1,000 learning budget each year to use on books, training courses and conferences.
+  - paragraph: 🏡 We will set you up to work from home; all employees are given Macbooks and for fully remote workers we will provide extra support for your work-from-home setup.
+  - paragraph:
+    - text: ➕ Plus lots more!
+    - link "Read our full list of benefits":
+      - /url: https://monzo.com/careers#benefits
+    - text: .
+  - heading "🌈 The application journey has 3 key steps" [level=3]:
+    - strong: 🌈 The application journey has 3 key steps
+  - list:
+    - listitem: Phone call with Recruiter (30 mins)
+    - listitem: Technical video interview with Hiring Manager and FP&A Lead (60 mins)
+    - listitem: Partnerships interview FP&A team (30 mins)
+  - paragraph: Our average process takes around 3–4 weeks, but we will always work around your availability.
+  - paragraph:
+    - text: We’ll only close this role once we have enough applications for the next stage. Please submit your application as soon as possible to make sure you don’t miss out. We have some guidelines on using Artificial Intelligence (AI) to ace an application and interview at Monzo. You can read them
+    - link "here":
+      - /url: https://monzo.com/blog/the-ultimate-guide-on-using-ai-to-ace-an-interview-at-monzo
+    - text: ". #LI-NZ1 #LI-Remote"
+  - separator
+  - paragraph:
+    - strong: Equal opportunities for everyone
+  - paragraph:
+    - text: Diversity and inclusion are a priority for us and we’re making sure we have lots of support for all of our people to grow at Monzo. At Monzo, we’re embracing diversity by fostering an inclusive environment for all people to do the best work of their lives with us. This is integral to our mission of making money work for everyone. You can read more in our
+    - link "blog":
+      - /url: https://monzo.com/blog/diversity-and-inclusion
+    - text: ", 2026"
+    - link "Diversity and Inclusion Report":
+      - /url: https://monzo.com/blog/our-2026-diversity-and-inclusion-report
+    - text: and 2025
+    - link "Gender Pay Gap Report.":
+      - /url: https://monzo.com/blog/gender-pay-gap-report-2025
+  - paragraph: We’re an equal opportunity employer. All applicants will be considered for employment without attention to age, ethnicity, religion, sex, sexual orientation, gender identity, family or parental status, national origin, or veteran, neurodiversity or disability status.
+  - paragraph: If you have a preferred name, please use it to apply. We don't need full or birth names at application stage 😊
+  - separator
+  - heading "Apply for this job" [level=2]
+  - paragraph: "*"
+  - paragraph: indicates a required field
+  - text: First Name
+  - textbox "First Name"
+  - text: Last Name
+  - textbox "Last Name"
+  - text: Email
+  - textbox "Email"
+  - group "Phone":
+    - text: Phone Country
+    - log
+    - combobox "Country"
+    - button "Toggle flyout":
+      - img
+    - text: Phone
+    - textbox "Phone"
+  - text: Location (City)
+  - log
+  - combobox "Location (City)"
+  - button "Locate me"
+  - group "Resume/CV*":
+    - text: Resume/CV*
+    - button "Attach"
+    - text: Attach
+    - button "Attach"
+    - button "Dropbox"
+    - button "Google Drive"
+    - button "Enter manually"
+    - text: Enter manually
+    - paragraph: "Accepted file types: pdf, doc, docx, txt, rtf"
+  - group "Cover Letter":
+    - text: Cover Letter
+    - button "Attach"
+    - text: Attach
+    - button "Attach"
+    - button "Dropbox"
+    - button "Google Drive"
+    - button "Enter manually"
+    - text: Enter manually
+    - paragraph: "Accepted file types: pdf, doc, docx, txt, rtf"
+  - separator
+  - text: 🇺🇸 Are you a US Person?
+  - log
+  - text: Select...
+  - combobox "🇺🇸 Are you a US Person?"
+  - button "Toggle flyout":
+    - img
+  - paragraph: "A US Person is defined as someone who:"
+  - list:
+    - listitem: was born in the United States (US)
+    - listitem: has at least 1 parent who was born in the US
+    - listitem: is a naturalised citizen of the US
+    - listitem: is a green card holder
+    - listitem: is a US tax resident
+  - text: 🔐 Keeping your data safe is really important to us. Please take a look at our Candidate Data Privacy Notice (linked below) and confirm that you have.
+  - log
+  - text: Select...
+  - combobox "🔐 Keeping your data safe is really important to us. Please take a look at our Candidate Data Privacy Notice (linked below) and confirm that you have."
+  - button "Toggle flyout":
+    - img
+  - paragraph:
+    - text: 🔗
+    - link "Candidate Data Privacy Notice":
+      - /url: https://monzo.com/docs/candidate-privacy-notice.pdf
+      - strong: Candidate Data Privacy Notice
+    - text: .
+  - text: If you’d like to, please share your preferred pronouns (eg. they/them/theirs, she/her/hers).
+  - textbox "If you’d like to, please share your preferred pronouns (eg. they/them/theirs, she/her/hers)."
+  - text: If you'd like to, please spell out your name how it's pronounced so we know how to say it.
+  - textbox "If you'd like to, please spell out your name how it's pronounced so we know how to say it."
+  - text: 🛂 Please confirm your Right to Work status in the location where this job is advertised.
+  - log
+  - text: Select...
+  - combobox "🛂 Please confirm your Right to Work status in the location where this job is advertised."
+  - button "Toggle flyout":
+    - img
+  - paragraph: We legally have to verify that you have the right to work in the location where you'd be working from. Your answer to this question won't affect the outcome of your application, unless you'd need visa sponsorship but are applying to a role we don't sponsor.
+  - separator
+  - heading "👤 Identity survey" [level=3]
+  - paragraph: Our goal at Monzo is to make money work for everyone. To do that, working at Monzo must work for everyone. We want to create an equitable, engaged and innovative workplace which gives people from all backgrounds the support they need to thrive and grow.
+  - paragraph: "Making Monzo work for everyone starts right at the beginning of every Monzonaut's journey: when they apply to work here. This demographic survey will help us better understand the people who apply to work at Monzo. It'll help us see how different groups progress through our hiring process, and where we need to make improvements to be more inclusive. If you choose to fill it out, all of the information you give us is:"
+  - list:
+    - listitem [level=1]:
+      - strong: Voluntary
+      - text: . And we've included a "prefer not to say" option for every question. It'd be helpful if you still fill out the survey even if you choose "prefer not to say" for every question, as it's useful for us to understand & record this. We won't know if you choose to fill this survey in or not.
+    - listitem [level=1]:
+      - strong: Anonymous to Monzo
+      - text: . We can't tie your responses to you and they won't make a difference to the outcome of your application. We'll only use grouped responses for equal opportunities monitoring in our hiring process.
+  - paragraph:
+    - text: For more information on how we'll use this data, please read our
+    - link "candidate privacy notice":
+      - /url: https://monzo.com/docs/candidate-privacy-notice.pdf
+    - text: .
+  - paragraph: By filling out this survey, you agree that we can use your responses for the purposes we've mentioned above. You are not letting us know if we need to make any adjustments to the hiring process because of disability or neurodiversity - to do this please email us.
+  - text: How would you describe your gender identity?
+  - log
+  - text: Select...
+  - combobox "How would you describe your gender identity?"
+  - button "Toggle flyout":
+    - img
+  - text: Do you identify as transgender?
+  - log
+  - text: Select...
+  - combobox "Do you identify as transgender?"
+  - button "Toggle flyout":
+    - img
+  - text: What's your sexual orientation?
+  - log
+  - text: Select...
+  - combobox "What's your sexual orientation?"
+  - button "Toggle flyout":
+    - img
+  - text: Do you identify as having a disability?
+  - log
+  - text: Select...
+  - combobox "Do you identify as having a disability?"
+  - button "Toggle flyout":
+    - img
+  - text: Do you consider yourself to be neurodivergent?
+  - log
+  - text: Select...
+  - combobox "Do you consider yourself to be neurodivergent?"
+  - button "Toggle flyout":
+    - img
+  - text: How would your describe your ethnicity?
+  - log
+  - text: Select...
+  - combobox "How would your describe your ethnicity?"
+  - button "Toggle flyout":
+    - img
+  - separator
+  - checkbox "By checking this box, I consent to Monzo collecting, storing, and processing my responses to the demographic data surveys above."
+  - text: By checking this box, I consent to Monzo collecting, storing, and processing my responses to the demographic data surveys above.
+  - button "Submit application"
+- contentinfo:
+  - paragraph: Powered by
+  - link "Greenhouse logo":
+    - /url: https://www.greenhouse.com
+    - img "Greenhouse logo"
+- iframe

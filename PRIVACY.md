@@ -9,3 +9,7 @@ ApplyFill has no server and collects nothing.
 **What the extension can see.** It runs on a page only after you click its icon or press its shortcut (`activeTab`). It reads the form fields on that page so it can suggest answers. The job-board domains in `manifest.json` let it read forms embedded from those sites on the page you clicked.
 
 **Removing your data.** Remove the extension from `chrome://extensions`, or use **Reset to defaults** on the settings page and press Save.
+
+## Fill log
+
+When you fill a saved answer or a Claude draft, ApplyFill records the page address, company, role, the question and the title of the answer you used, in `chrome.storage.local`. It isn't sent anywhere. **Export fill log** on the settings page saves it as a file, which you can import into your own tracker.

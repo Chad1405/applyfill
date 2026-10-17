@@ -1,0 +1,30 @@
+{
+ "site": "webitrent",
+ "url": "https://ce0799li.webitrent.com/ce0799li_webrecruitment/wrd/run/ETREC148GF.open?REQUEST=RET&PROFILE=VACANCY_ID.TVACANCY=10252560sZ&VACANCY_ID=10252560sZ&ACTION_ID=WEB_REC&USESSION=466F7257782A6D27BC4138C63BF744BD&WVID=3373962BPM&LANG=USA",
+ "fields": [
+  {
+   "id": "1",
+   "tag": "input",
+   "type": "radio",
+   "name": "QUESTION_RESPONSE.DUMMY_QUESTION.DUMMY.1-1-1",
+   "elId": "s6334442BPM",
+   "autocomplete": "",
+   "automationId": "",
+   "label": "",
+   "placeholder": "",
+   "truth": "rightToWork"
+  },
+  {
+   "id": "2",
+   "tag": "input",
+   "type": "radio",
+   "name": "QUESTION_RESPONSE.DUMMY_QUESTION.DUMMY.1-1-1",
+   "elId": "s9029832BPM",
+   "autocomplete": "",
+   "automationId": "",
+   "label": "",
+   "placeholder": "",
+   "truth": "skip"
+  }
+ ]
+}

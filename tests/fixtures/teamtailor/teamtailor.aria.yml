@@ -1,0 +1,317 @@
+- link "Skip to main content":
+  - /url: "#main-content"
+- status
+- banner:
+  - button "Career menu"
+  - link "Teamtailor career site":
+    - /url: https://career.teamtailor.com/
+    - img "Teamtailor career site"
+  - button "Share page"
+- main:
+  - text: Sales · London · Hybrid
+  - heading "UK Account Executive - SMB" [level=1]
+  - heading "This is a job that provides a great platform for personal & professional growth, uncapped earning potential and the opportunity to work with a global market leader within the ATS & HR Tech Industry" [level=2]
+  - button "Apply for this job"
+  - button "Scroll to content"
+  - heading "Let's build the future together!" [level=4]
+  - paragraph:
+    - link "Teamtailor":
+      - /url: https://www.teamtailor.com/en/
+    - text: is an Employer Branding and an ATS SaaS platform used by over 13,000 companies, 250.000 users in 90 countries around the world.
+  - paragraph: Working at Teamtailor means working at a global, international, and fast-paced tech company that offers an ideal workplace for those who want to have a real impact on the growth of an organisation and are craving for responsibilities. It also means having lots of fun!!! 🥳
+  - paragraph: Building a diverse team with various backgrounds and expertise is at the core of Teamtailor since its very beginning, and is truly a part of our strength today! There are no typical profiles, except that every team member shares our vision and wants to be part of our success. Join us in our mission to help companies and people interact with each other in a better way so that they can make life-changing decisions together.
+  - paragraph:
+    - text: We are now looking for an
+    - strong: Account Executive
+    - text: to join the team from our
+    - strong: Farringdon office
+    - text: "- this role is perfect for someone who thrives on ownership, moves fast, and loves building their own book of business!"
+  - paragraph:
+    - text: We work hard and have lots of fun along the way, but every call counts, and we're looking for someone who takes
+    - strong: real accountability for their numbers and stays proactive
+    - text: about hitting them, not just aiming for them. You will be instrumental in driving Teamtailor's growth across the
+    - strong: SMB+Mid-Market
+    - text: segment, running
+    - strong: high-velocity sales cycles
+    - text: from first contact through to close.
+  - heading "Key Responsibilities:" [level=4]
+  - list:
+    - listitem:
+      - paragraph:
+        - text: Take
+        - strong: full ownership and accountability
+        - text: of your pipeline and your numbers, treating every call and every deal as if it's the one that matters most
+    - listitem:
+      - paragraph:
+        - strong: Build and nurture
+        - text: your own book of business through proactive, self-generated, multi-channel outreach, never waiting for pipeline to come to you
+    - listitem:
+      - paragraph:
+        - text: Run structured, consultative discovery and
+        - strong: use MEDDPICC
+        - text: diligently to qualify every opportunity
+    - listitem:
+      - paragraph:
+        - text: Manage a
+        - strong: high volume of fast-moving deals
+        - text: with a high degree of detail and accuracy
+    - listitem:
+      - paragraph:
+        - text: Keep
+        - strong: pipeline hygiene and CRM data clean
+        - text: ", accurate and up to date at all times, no exceptions"
+    - listitem:
+      - paragraph:
+        - text: Deliver
+        - strong: compelling product demonstrations
+        - text: tailored to each prospect's needs
+    - listitem:
+      - paragraph:
+        - strong: Collaborate closely with Customer Success
+        - text: and the wider Sales team to ensure smooth handovers at close
+    - listitem:
+      - paragraph:
+        - text: Provide reliable
+        - strong: weekly and monthly forecasts
+        - text: you can be held to
+    - listitem:
+      - paragraph:
+        - text: Consistently and proactively hit your monthly and quarterly revenue targets, and
+        - strong: take ownership
+        - text: when a number is at risk rather than waiting to be asked
+    - listitem:
+      - paragraph: Bring your experience selling in the tech space to help upskill the wider team
+  - heading "We are looking for someone with:" [level=4]
+  - list:
+    - listitem:
+      - paragraph:
+        - text: A track record of selling in the tech space, ideally
+        - strong: SaaS,
+        - text: with a genuine passion for sharing that knowledge with the team
+    - listitem:
+      - paragraph:
+        - text: Experience working in a
+        - strong: high-performance, target-driven sales culture,
+        - text: where you're comfortable being held to your numbers
+    - listitem:
+      - paragraph:
+        - text: A s
+        - strong: trong sense of personal accountability
+        - text: and ownership - you treat your pipeline like your own business and don't need to be chased to stay on top of it
+    - listitem:
+      - paragraph: Genuinely proactive by nature - you spot when a number is slipping and act on it before anyone has to flag it
+    - listitem:
+      - paragraph: Strong attention to detail, particularly when managing several fast-moving deals at once
+    - listitem:
+      - paragraph:
+        - text: Familiarity with
+        - strong: MEDDPICC or a similar qualification framework
+    - listitem:
+      - paragraph:
+        - text: Excellent pipeline hygiene and
+        - strong: CRM discipline
+        - text: (Salesforce & Gong experience preferred)
+    - listitem:
+      - paragraph: Emotional intelligence and strong communication skills, with the ability to build genuine relationships with prospects
+    - listitem:
+      - paragraph:
+        - text: An
+        - strong: inquisitive, hungry mindset
+        - text: "- always looking to improve and develop"
+    - listitem:
+      - paragraph:
+        - text: The ability to
+        - strong: take feedback well
+        - text: and act on it quickly
+    - listitem:
+      - paragraph: A team-first attitude, willing to share knowledge and support colleagues
+  - heading "What we have to offer:" [level=4]
+  - list:
+    - listitem:
+      - paragraph: The opportunity to sell the market's leading employer branding and recruitment platform
+    - listitem:
+      - paragraph: Fixed salary together with a variable commission plan, we apply a generous model with no cap
+    - listitem:
+      - paragraph: Company pension
+    - listitem:
+      - paragraph: Development opportunities in a fast-growing environment, continuous training, and support
+    - listitem:
+      - paragraph: Generous PTO (25 days) and you will be able to attend our yearly 3-day company trip
+    - listitem:
+      - paragraph: Tons of team events, celebrations, monthly competitions and rewards for those who like challenges
+    - listitem:
+      - paragraph: Starter kit which includes a Macbook Air, iPhone, and the must-have Teamtailor merch, free breakfast and fika
+    - listitem:
+      - paragraph: The opportunity to work with a talented, fun and kind group of individuals, based in our Farringdon office
+  - paragraph: If this sounds like you, then you know what to do!
+  - figure:
+    - img "Team picture on the beach"
+  - paragraph
+  - term: Department
+  - definition: Sales
+  - term: Role
+  - definition: Account Executive
+  - term: Location
+  - definition: London
+  - term: Remote status
+  - definition: Hybrid
+  - figure:
+    - img "Picture of Elin Andersson"
+  - text: Contact
+  - link "Elin Andersson":
+    - /url: /people/4147558-elin-andersson
+  - text: Graduate Talent Associate – Human Resources
+  - heading "Colleagues" [level=2]
+  - link "Teilo Morgan Senior Sales Manager UK":
+    - /url: https://career.teamtailor.com/en-GB/people/755011-teilo-morgan
+    - figure:
+      - img "Picture of Teilo Morgan"
+    - text: Teilo Morgan Senior Sales Manager UK
+  - link "Alex Meredith Sales Manager UK":
+    - /url: https://career.teamtailor.com/en-GB/people/1515793-alex-meredith
+    - figure:
+      - img "Picture of Alex Meredith"
+    - text: Alex Meredith Sales Manager UK
+  - link "Amber Account Executive":
+    - /url: https://career.teamtailor.com/en-GB/people/2809552-amber
+    - figure:
+      - img "Picture of Amber"
+    - text: Amber Account Executive
+  - link "Leah Walton Senior Account Executive":
+    - /url: https://career.teamtailor.com/en-GB/people/3259558-leah-walton
+    - figure:
+      - img "Picture of Leah Walton"
+    - text: Leah Walton Senior Account Executive
+  - link "James Mensforth Country Manager UK&I":
+    - /url: https://career.teamtailor.com/en-GB/people/3606034-james-mensforth
+    - figure:
+      - img "Picture of James Mensforth"
+    - text: James Mensforth Country Manager UK&I
+  - heading "Current job openings" [level=1]
+  - list:
+    - listitem:
+      - link "Account Executive - Aboard by Teamtailor Sales · Stockholm · Hybrid":
+        - /url: https://career.teamtailor.com/jobs/8236014-account-executive-aboard-by-teamtailor
+        - figure:
+          - img "Account Executive - Aboard by Teamtailor image"
+        - text: Account Executive - Aboard by Teamtailor Sales · Stockholm · Hybrid
+    - listitem:
+      - link "Account Executive - UK Enterprise Sales · London · Hybrid":
+        - /url: https://career.teamtailor.com/jobs/8021334-account-executive-uk-enterprise
+        - figure:
+          - img "Account Executive - UK Enterprise image"
+        - text: Account Executive - UK Enterprise Sales · London · Hybrid
+    - listitem:
+      - link "Mid-Market Account Executive - Chicago Sales · Chicago · Hybrid":
+        - /url: https://career.teamtailor.com/jobs/7538468-mid-market-account-executive-chicago
+        - figure:
+          - img "Mid-Market Account Executive - Chicago image"
+        - text: Mid-Market Account Executive - Chicago Sales · Chicago · Hybrid
+  - link "More jobs":
+    - /url: /jobs
+  - heading "London" [level=2]
+  - heading "Workplace & Culture" [level=2]
+  - paragraph:
+    - text: Our guiding stars are to be
+    - strong: different
+    - text: ","
+    - strong: personal
+    - text: and
+    - strong: kind
+    - text: . These apply to everything we do, from how we talk to our customers to how we work and who we hire. We have a lot of fun doing what we love, and we celebrate every success.
+  - paragraph: Drop by one of our offices and say hello and meet our team – coffee is on us ☕️
+  - heading "About Teamtailor" [level=2]
+  - paragraph: Teamtailor is a tech company specialized in hiring. We believe the right hire can change everything, and that giving hiring people the right technology is one of the most powerful ways to make that happen. Used by more than 13,000 companies around the world, Teamtailor helps hiring teams attract, engage and hire the right people while taking more of the work around hiring off their plate – making every hire count.
+  - text: Founded in 2013 Co-workers 500+
+  - button "Apply for this job" [disabled]
+  - dialog "Apply for this job":
+    - text: Sales · London · Hybrid
+    - heading "UK Account Executive - SMB" [level=1]
+    - heading "This is a job that provides a great platform for personal & professional growth, uncapped earning potential and the opportunity to work with a global market leader within the ATS & HR Tech Industry" [level=2]
+    - text: How many years SaaS sales experience do you have? Required 0
+    - button "Edit number"
+    - text: Years
+    - slider "How many years SaaS sales experience do you have? Required": "0"
+    - group "Do you have experience working at a startup or fast paced working environment? Required":
+      - text: Do you have experience working at a startup or fast paced working environment? Required
+      - radio "Yes"
+      - text: "Yes"
+      - radio "No"
+      - text: "No"
+    - text: What is your salary expectation? Required
+    - spinbutton "What is your salary expectation? Required"
+    - heading "Personal information" [level=2]
+    - iframe
+    - text: First name Required
+    - textbox "First name Required"
+    - text: Last name Required
+    - textbox "Last name Required"
+    - text: Email Required
+    - textbox "Email Required"
+    - text: Phone Required
+    - button "Change country, selected United Kingdom (+44)"
+    - textbox "Phone number with country code":
+      - /placeholder: +44 7400 123456
+    - text: Upload CV Required Drop your file or upload
+    - button "Drop your file or upload, Upload CV"
+    - checkbox "Required. By submitting this application, I confirm that I have read the Privacy Policy and I understand that Teamtailor will process my personal data as described in it."
+    - text: Required.
+    - paragraph:
+      - text: By submitting this application, I confirm that I have read the
+      - link "Privacy Policy":
+        - /url: https://career.teamtailor.com/privacy-policy
+      - text: and I understand that Teamtailor will process my personal data as described in it.
+    - checkbox "I consent to Teamtailor considering me for, and contacting me about, future vacancies in the Teamtailor group. If you change your mind and want to withdraw your consent, you can do so by logging into your profile on Connect and updating the relevant setting under \"Data&Privacy\"."
+    - paragraph: I consent to Teamtailor considering me for, and contacting me about, future vacancies in the Teamtailor group. If you change your mind and want to withdraw your consent, you can do so by logging into your profile on Connect and updating the relevant setting under "Data&Privacy".
+    - checkbox "Teamtailor can use my phone number for recruiting-related communication via SMS."
+    - text: Teamtailor can use my phone number for recruiting-related communication via SMS.
+    - paragraph: Message frequency varies, and message and data rates may apply. Reply STOP to unsubscribe.
+    - button "Submit application"
+    - button "Close modal"
+- contentinfo:
+  - heading "Career site" [level=2]
+  - list:
+    - listitem:
+      - link "Start":
+        - /url: https://career.teamtailor.com/
+    - listitem:
+      - link "Jobs":
+        - /url: https://career.teamtailor.com/jobs
+    - listitem:
+      - link "People":
+        - /url: https://career.teamtailor.com/people
+    - listitem:
+      - link "Team Stories":
+        - /url: https://career.teamtailor.com/pages/team-stories
+    - listitem:
+      - link "Data & privacy":
+        - /url: /data-privacy
+    - listitem:
+      - button "Manage cookies"
+  - link "teamtailor.com":
+    - /url: http://www.teamtailor.com
+  - link "Facebook":
+    - /url: https://www.facebook.com/Teamtailor
+  - link "LinkedIn":
+    - /url: https://www.linkedin.com/company/teamtailor
+  - link "Instagram":
+    - /url: https://www.instagram.com/teamtailor/
+  - link "Employee login":
+    - /url: /sso_login
+  - link "Candidate Connect login":
+    - /url: /connect/login
+- heading "Already working at Teamtailor?" [level=2]
+- paragraph: Let’s recruit together and find your next colleague.
+- button "Log in"
+- list:
+  - listitem
+  - listitem
+  - listitem
+  - listitem
+  - listitem
+  - listitem
+  - listitem
+  - listitem
+- complementary "Applicant tracking system by Teamtailor":
+  - link "Applicant tracking system by Teamtailor":
+    - /url: https://www.teamtailor.com/?utm_campaign=poweredby&utm_content=career.teamtailor.com&utm_medium=referral&utm_source=career-site

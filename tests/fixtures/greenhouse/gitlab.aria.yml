@@ -1,0 +1,191 @@
+- main:
+  - link "GitLab Logo":
+    - /url: https://boards.greenhouse.io/gitlab
+    - img "GitLab Logo"
+  - heading "Account Executive - France" [level=1]
+  - img
+  - text: Remote, France
+  - button "Apply"
+  - paragraph: GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.
+  - paragraph:
+    - text: "The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems."
+    - link "Co-create the future with us":
+      - /url: https://www.youtube.com/watch?v=OuZIb5zszQI
+    - text: as we build technology that transforms how the world develops software.
+  - paragraph:
+    - text: "*"
+    - emphasis: Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab.
+  - heading "An overview of this role" [level=2]
+  - paragraph: "As an Account Executive, you'll be the primary connection between GitLab and its customers, working with organizations of up to 4,000 team members to help them adopt and expand the world's most comprehensive platform for software development, security, and operations (DevSecOps), which uses artificial intelligence. You'll own a broad book of business across a wide range of opportunity sizes, guiding small, fast-growing teams as well as more complex projects as they modernize their software delivery with GitLab. Reporting to a Regional Sales Director, you'll run the full sales process: shaping the customer's journey, documenting buying criteria and processes, and maintaining accurate pipeline data based on evidence. In your first year, you'll focus on building trusted relationships and delivering meaningful business outcomes for customers."
+  - heading "What you'll do" [level=2]
+  - list:
+    - listitem: Own a broad book of Enterprise business, from new prospects to growing existing accounts.
+    - listitem: Manage the full sales cycle for Enterprise prospects, from discovery and solution alignment through negotiation and close.
+    - listitem: Articulate the value of GitLab's DevSecOps platform and its artificial intelligence capabilities to Mid-Market prospects and customers, tailoring messaging to their business and technical needs.
+    - listitem: Build and maintain a healthy pipeline through consistent prospecting, qualification, and advancement of opportunities, using a structured sales process to support your pipeline and revenue goals.
+    - listitem: Document buying criteria, decision processes, next steps, and key stakeholders to run disciplined, well-orchestrated sales cycles.
+    - listitem: Collaborate with sales development, customer success, renewals, marketing, technical teams, and partners to deliver a cohesive pre- and post-sales experience, co-sell and close opportunities, and expand GitLab’s footprint while delivering added value for customers.
+    - listitem: Support customer adoption of GitLab solutions, proactively work to reduce churn and contraction, and participate in quarterly forecasting and territory planning; travel to meet customers and attend events as needed.
+  - heading "What you'll bring" [level=2]
+  - list:
+    - listitem: Experience selling software as a service (SaaS) solutions.
+    - listitem: Ability to manage a broad mid-market territory as the primary point of contact, owning a book of business from prospecting through close, adoption, and expansion.
+    - listitem: Skill in building and maintaining strong customer relationships, including effective discovery, negotiation, and closing to support long-term customer outcomes.
+    - listitem: Experience conducting consistent outbound prospecting, creating and maintaining a healthy pipeline, and maintaining accurate territory and forecast documentation.
+    - listitem: Ability to collaborate closely with cross-functional partners (sales development, customer success, renewals, marketing, partners, and technical teams) to coordinate account strategies.
+    - listitem: Ability to connect customer business challenges to GitLab's DevSecOps platform and communicate its value to different audiences, documenting customer insights and lessons learned; relevant, transferable sales experience from a variety of backgrounds is welcome.
+    - listitem: Fluent French language skills (required).
+    - listitem: Experience selling to development or DevSecOps teams is helpful, but not required.
+  - heading "About the team" [level=2]
+  - paragraph: You'll join the Europe, Middle East, and Africa Sales team, a distributed group of Account Executives, sales managers, and business development team members. We collaborate asynchronously across regions and partner with marketing, sales development, and technical teams.
+  - heading "How GitLab Supports Full-Time Employees" [level=4]:
+    - strong: How GitLab Supports Full-Time Employees
+  - list:
+    - listitem:
+      - link "Benefits to support your health, finances, and well-being":
+        - /url: https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/
+    - listitem:
+      - link "Flexible Paid Time Off":
+        - /url: https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#flexible-paid-time-off-pto
+    - listitem:
+      - link "Team Member Resource Groups":
+        - /url: https://handbook.gitlab.com/handbook/company/culture/inclusion/tmrg-tmag/
+    - listitem:
+      - link "Equity Compensation & Employee Stock Purchase Plan":
+        - /url: https://handbook.gitlab.com/handbook/total-rewards/stock-options/
+    - listitem:
+      - link "Growth and Development Fund":
+        - /url: https://handbook.gitlab.com/handbook/people-group/learning-and-development/growth-and-development/
+    - listitem:
+      - link "Parental Leave":
+        - /url: https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave
+  - paragraph:
+    - text: Please note that we welcome interest from candidates with varying levels of experience; many successful candidates do not meet every single requirement. Additionally, studies have shown that people from
+    - link "underrepresented groups":
+      - /url: https://about.gitlab.com/company/culture/inclusion/#examples-of-select-underrepresented-groups
+    - text: are less likely to apply to a job unless they meet every single qualification. If you're excited about this role, please apply and allow our recruiters to assess your application.
+  - separator
+  - paragraph:
+    - strong: "Country Hiring Guidelines:"
+    - text: GitLab hires new team members in countries around the world. All of our roles are remote, however some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions about location after starting the recruiting process.
+  - paragraph:
+    - strong: "Privacy Policy:"
+    - text: Please review our
+    - link "Recruitment Privacy Policy.":
+      - /url: https://handbook.gitlab.com/handbook/hiring/candidate-faq/recruitment-privacy-policy/
+    - text: Your privacy is important to us.
+  - paragraph:
+    - text: GitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab’s policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, regardless of race, color, religion, ancestry, sex (including pregnancy, lactation, sexual orientation, gender identity, or gender expression), national origin, age, citizenship, marital status, mental or physical disability, genetic information (including family medical history), discharge status from the military, protected veteran status (which includes disabled veterans, recently separated veterans, active duty wartime or campaign badge veterans, and Armed Forces service medal veterans), or any other basis protected by law. GitLab will not tolerate discrimination or harassment based on any of these characteristics. See also
+    - link "GitLab’s EEO Policy":
+      - /url: https://about.gitlab.com/handbook/people-policies/inc-usa/#equal-employment-opportunity-policy
+    - text: and
+    - link "EEO is the Law":
+      - /url: https://about.gitlab.com/handbook/labor-and-employment-notices/#eeoc-us-equal-employment-opportunity-commission-notices
+    - text: . If you have a disability or special need that requires
+    - link "accommodation":
+      - /url: https://about.gitlab.com/handbook/people-policies/inc-usa/#reasonable-accommodation
+    - text: ", please let us know during the"
+    - link "recruiting process":
+      - /url: https://about.gitlab.com/handbook/hiring/interviewing/#adjustments-to-our-interview-process
+    - text: .
+  - separator
+  - heading "Apply for this job" [level=2]
+  - paragraph: "*"
+  - paragraph: indicates a required field
+  - text: First Name
+  - textbox "First Name"
+  - text: Last Name
+  - textbox "Last Name"
+  - text: Email
+  - textbox "Email"
+  - group "Phone":
+    - text: Phone Country
+    - log
+    - combobox "Country"
+    - button "Toggle flyout":
+      - img
+    - text: Phone
+    - textbox "Phone"
+  - group "Resume/CV*":
+    - text: Resume/CV*
+    - button "Attach"
+    - text: Attach
+    - button "Attach"
+    - button "Enter manually"
+    - text: Enter manually
+    - paragraph: "Accepted file types: pdf, doc, docx, txt, rtf"
+  - group "Cover Letter":
+    - text: Cover Letter
+    - button "Attach"
+    - text: Attach
+    - button "Attach"
+    - button "Enter manually"
+    - text: Enter manually
+    - paragraph: "Accepted file types: pdf, doc, docx, txt, rtf"
+  - separator
+  - text: LinkedIn Profile
+  - textbox "LinkedIn Profile"
+  - text: What's the name you'd prefer us to use throughout the interview process?
+  - textbox "What's the name you'd prefer us to use throughout the interview process?"
+  - text: Are you subject to any employment agreements and/or post-employment restrictions with your current employer or a past employer?
+  - log
+  - text: Select...
+  - combobox "Are you subject to any employment agreements and/or post-employment restrictions with your current employer or a past employer?"
+  - button "Toggle flyout":
+    - img
+  - text: It is important to us to create an accessible and inclusive interview experience. Please let us know if there are any adjustments we can make to assist you during the hiring and interview process.
+  - textbox "It is important to us to create an accessible and inclusive interview experience. Please let us know if there are any adjustments we can make to assist you during the hiring and interview process."
+  - text: Will you now or in the future require sponsorship for a visa to remain in your current location?
+  - log
+  - text: Select...
+  - combobox "Will you now or in the future require sponsorship for a visa to remain in your current location?"
+  - button "Toggle flyout":
+    - img
+  - text: Have you previously worked at or consulted for GitLab?
+  - log
+  - text: Select...
+  - combobox "Have you previously worked at or consulted for GitLab?"
+  - button "Toggle flyout":
+    - img
+  - text: What is your current country of residence?
+  - log
+  - text: Select...
+  - combobox "What is your current country of residence?"
+  - button "Toggle flyout":
+    - img
+  - separator
+  - heading "Voluntary Self-Identification" [level=2]
+  - paragraph: For government reporting purposes, we ask candidates to respond to the below self-identification survey. Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.
+  - paragraph: As set forth in GitLab’s Equal Employment Opportunity policy, we do not discriminate on the basis of any protected group status under any applicable law.
+  - text: Gender
+  - log
+  - text: Select...
+  - combobox "Gender"
+  - button "Toggle flyout":
+    - img
+  - text: Are you Hispanic/Latino?
+  - log
+  - text: Select...
+  - combobox "Are you Hispanic/Latino?"
+  - button "Toggle flyout":
+    - img
+  - link "Race & Ethnicity Definitions":
+    - /url: https://job-boards.cdn.greenhouse.io/docs/2023/RaceEthnicityDefinitions.pdf
+  - paragraph: "If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection. As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories is as follows:"
+  - paragraph: "A \"disabled veteran\" is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability."
+  - paragraph: A "recently separated veteran" means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.
+  - paragraph: An "active duty wartime or campaign badge veteran" means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.
+  - paragraph: An "Armed forces service medal veteran" means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.
+  - text: Veteran Status
+  - log
+  - text: Select...
+  - combobox "Veteran Status"
+  - button "Toggle flyout":
+    - img
+  - button "Submit application"
+- contentinfo:
+  - paragraph: Powered by
+  - link "Greenhouse logo":
+    - /url: https://www.greenhouse.com
+    - img "Greenhouse logo"
+- iframe

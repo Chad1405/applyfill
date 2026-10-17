@@ -1,0 +1,201 @@
+- list:
+  - listitem:
+    - link "Notion":
+      - /url: https://www.notion.com/
+      - img "Notion"
+  - listitem:
+    - link "Back to Notion’s Job Listings":
+      - /url: /notion
+      - img
+  - listitem
+- heading "Software Engineer, AI Connections (Developer Platform)" [level=1]
+- heading "Location" [level=2]
+- paragraph: San Francisco, California; New York, New York
+- heading "Employment Type" [level=2]
+- paragraph: Full time
+- heading "Location Type" [level=2]
+- paragraph: Hybrid
+- heading "Department" [level=2]
+- paragraph: Engineering
+- tablist:
+  - tab "Overview"
+  - tab "Application" [selected]
+- tabpanel "Application":
+  - button "Choose File"
+  - img
+  - heading "Autofill from resume" [level=3]
+  - paragraph: Upload your resume here to autofill key application fields.
+  - button "Upload file"
+  - text: Full Name*
+  - textbox "Full Name*":
+    - /placeholder: Type here...
+  - text: Email*
+  - textbox "Email*":
+    - /placeholder: hello@example.com...
+  - text: Phone*
+  - textbox "Phone*":
+    - /placeholder: 1-415-555-1234...
+  - text: Location*
+  - combobox "Start typing..."
+  - button:
+    - img
+  - text: Resume*
+  - button "Resume*"
+  - button "Upload File":
+    - img
+    - text: Upload File
+  - paragraph: or drag and drop here
+  - text: LinkedIn Profile*
+  - textbox "LinkedIn Profile*":
+    - /placeholder: Type here...
+  - group:
+    - text: What pronouns would you like our team to use when addressing you?
+    - radio "He/Him"
+    - text: He/Him
+    - radio "She/Her"
+    - text: She/Her
+    - radio "They/Them"
+    - text: They/Them
+    - radio "Prefer not to say"
+    - text: Prefer not to say
+    - radio "Not represented here"
+    - text: Not represented here
+  - text: We work from our offices on Mondays, Tuesdays, and Thursdays (Anchor Days). If you need an accommodation, we’ll partner with you and explore reasonable options consistent with applicable law. Are you able to commit to working from one of our offices on Anchor Days each week?*
+  - button "Yes"
+  - button "No"
+  - text: Will you now or in the future require Notion to sponsor an immigration case in order to employ you?*
+  - button "Yes"
+  - button "No"
+  - group:
+    - text: How did you hear about this opportunity? (select all that apply)
+    - img
+    - checkbox "LinkedIn"
+    - text: LinkedIn
+    - img
+    - checkbox "Glassdoor"
+    - text: Glassdoor
+    - img
+    - checkbox "Notion Blog"
+    - text: Notion Blog
+    - img
+    - checkbox "Notion Employee"
+    - text: Notion Employee
+    - img
+    - checkbox "Notion Website"
+    - text: Notion Website
+    - img
+    - checkbox "Billboard/Outdoor Ads"
+    - text: Billboard/Outdoor Ads
+    - img
+    - checkbox "Conference or Meetup"
+    - text: Conference or Meetup
+  - paragraph:
+    - strong: U.S. EQUAL EMPLOYMENT OPPORTUNITY INFORMATION
+    - text: (Completion is voluntary and will not subject you to adverse treatment)
+  - paragraph
+  - paragraph: Notion provides equal employment opportunities to applicants and employees without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, disability, or any other classification protected by applicable law.
+  - paragraph
+  - paragraph: We invite all applicants to voluntarily self-identify their race, ethnicity, and gender. Submission of the information on this form is strictly voluntary and refusal to provide it will not subject you to any adverse treatment. Information obtained will be retained in a confidential file and separate from personnel records. This information may only be used in accordance with the provision of applicable federal laws, executive orders, and regulations. If you want more information about any of the sections, please check with a company representative.
+  - group:
+    - text: Gender
+    - paragraph: Input gender
+    - radio "Male"
+    - text: Male
+    - radio "Female"
+    - text: Female
+    - radio "Decline to self-identify"
+    - text: Decline to self-identify
+  - group:
+    - text: Race
+    - list:
+      - listitem:
+        - paragraph:
+          - strong: Hispanic or Latino
+          - text: "- A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race."
+    - list:
+      - listitem:
+        - paragraph:
+          - strong: White
+          - text: (Not Hispanic or Latino) - A person having origins in any of the original peoples of Europe, the Middle East, or North Africa.
+      - listitem:
+        - paragraph:
+          - strong: Black or African American
+          - text: (Not Hispanic or Latino) - A person having origins in any of the Black racial groups of Africa.
+      - listitem:
+        - paragraph:
+          - strong: Native Hawaiian or Other Pacific Islander
+          - text: (Not Hispanic or Latino) - A person having origins in any of the peoples of Hawaii, Guam, Samoa, or other Pacific Islands.
+      - listitem:
+        - paragraph:
+          - strong: Asian
+          - text: (Not Hispanic or Latino) - A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian Subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam.
+      - listitem:
+        - paragraph:
+          - strong: American Indian or Alaska Native
+          - text: (Not Hispanic or Latino) - A person having origins in any of the original peoples of North and South America (including Central America), and who maintain tribal affiliation or community attachment.
+      - listitem:
+        - paragraph:
+          - strong: Two or More Races
+          - text: (Not Hispanic or Latino) - All persons who identify with more than one of the above five races.
+    - radio "Hispanic or Latino"
+    - text: Hispanic or Latino
+    - radio "White (Not Hispanic or Latino)"
+    - text: White (Not Hispanic or Latino)
+    - radio "Black or African American (Not Hispanic or Latino)"
+    - text: Black or African American (Not Hispanic or Latino)
+    - radio "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)"
+    - text: Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)
+    - radio "Asian (Not Hispanic or Latino)"
+    - text: Asian (Not Hispanic or Latino)
+    - radio "American Indian or Alaska Native (Not Hispanic or Latino)"
+    - text: American Indian or Alaska Native (Not Hispanic or Latino)
+    - radio "Two or More Races (Not Hispanic or Latino)"
+    - text: Two or More Races (Not Hispanic or Latino)
+    - radio "Decline to self-identify"
+    - text: Decline to self-identify
+  - paragraph:
+    - strong: SELF-IDENTIFICATION OF VETERAN STATUS
+    - text: (Completion is voluntary and will not subject you to adverse treatment)
+  - paragraph: If you believe that you belong to any of the following categories of protected veterans, please indicate by making the appropriate selection
+  - list:
+    - listitem:
+      - paragraph:
+        - strong: Disabled veteran
+        - text: – A veteran who served on active duty in the U.S. military and is entitled to disability compensation (or who but for the receipt of military retired pay would be entitled to disability compensation) under laws administered by the Secretary of Veterans Affairs, or was discharged or released from active duty because of a service-connected disability
+    - listitem:
+      - paragraph:
+        - strong: Recently separated veteran
+        - text: – A veteran separated during the three-year period beginning on the date of the veteran's discharge or release from active duty in the U.S military, ground, naval, or air service
+    - listitem:
+      - paragraph:
+        - strong: Active duty wartime or campaign badge veteran
+        - text: – A veteran who served on active duty in the U.S. military during a war, or in a campaign or expedition for which a campaign badge was authorized under the laws administered by the Department of Defense
+    - listitem:
+      - paragraph:
+        - strong: Armed forces service medal veteran
+        - text: – A veteran who, while serving on active duty in the U.S. military, ground, naval, or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985 (61 Fed. Reg. 1209).
+  - group:
+    - text: Veteran Status
+    - radio "I identify as one or more of the classifications of protected veteran listed above"
+    - text: I identify as one or more of the classifications of protected veteran listed above
+    - radio "I am not a protected veteran"
+    - text: I am not a protected veteran
+    - radio "I decline to self-identify for protected veteran status"
+    - text: I decline to self-identify for protected veteran status
+  - link "Recruiting Privacy Policy":
+    - /url: https://notion.notion.site/Notion-Global-Recruiting-Privacy-Policy-fc3eb4e829354a26a2bb6fd5e289b550
+  - button "Submit Application":
+    - text: Submit Application
+    - img
+- contentinfo:
+  - link "Learn more about Ashby":
+    - /url: https://www.ashbyhq.com
+    - text: Powered by
+    - img "Ashby"
+  - paragraph:
+    - link "Privacy Policy":
+      - /url: https://www.ashbyhq.com/privacy
+    - link "Security":
+      - /url: https://www.ashbyhq.com/security
+    - link "Vulnerability Disclosure":
+      - /url: https://www.ashbyhq.com/disclosure

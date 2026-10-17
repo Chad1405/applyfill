@@ -46,7 +46,8 @@ See [PRIVACY.md](PRIVACY.md).
 ## Limits
 
 - Browsers don't let extensions attach files, so upload your CV yourself.
-- Searchable dropdowns (type-to-search boxes) get the text typed in; pick the matching option yourself.
+- Searchable dropdowns get the matching option picked when it shows up in the list. If none matches, the text is left typed in for you to finish.
+- Checkbox groups ("select all that apply") and sliders aren't filled.
 - If a form is embedded from a site that isn't listed and nothing is found, open the form in its own tab.
 
 ## Development
@@ -55,7 +56,9 @@ See [PRIVACY.md](PRIVACY.md).
 extension/
   manifest.json   Manifest V3 config
   background.js   Injects the scanner on click; makes Claude API calls
-  content.js      Finds fields, matches them to your profile, draws the panel, fills fields
+  fields.js       Finds fields, works out what each asks for, fills them
+  content.js      Matches fields to your profile and answers, draws the panel
+  prompt.js       Builds the Draft with Claude request
   defaults.js     Empty profile and template saved answers for a fresh install
   options.html/js Settings page
 scripts/package.sh  Builds dist/ApplyFill-<version>.zip
@@ -63,7 +66,14 @@ scripts/package.sh  Builds dist/ApplyFill-<version>.zip
 
 After editing, press the reload arrow on ApplyFill's card in `chrome://extensions`.
 
-**Field matching** lives in the `RULES` list at the top of `content.js`: each entry maps a profile key to a regular expression tested against the field's label. If a form's field isn't recognised, adding or loosening a rule there is usually the fix.
+**Field matching** lives in `fields.js`. A field's meaning comes from its signals, strongest first: the `autocomplete` attribute, the accessible name, nearby label text, `name`/`id`, then site hooks such as Workday's `data-automation-id`. Label rules are in `RULES`; attribute rules in `ATTR_RULES`. `prompt.js` builds the Draft with Claude request.
+
+**Tests** (`npm install`, then `npx playwright install chromium`):
+
+- `npx vitest run`: unit tests, plus matching accuracy on the labelled real forms in `tests/fixtures/`. Fails if precision or recall drops below `tests/baseline.json`, and writes `tests/accuracy-report.md`.
+- `npx playwright test`: loads the extension in Chromium and fills the captured forms, a React form, and five prompt-injection pages. Claude is stubbed unless `ANTHROPIC_API_KEY` is set. `LIVE=1` also fills (never submits) live Greenhouse, Lever and Ashby forms.
+- If a change improves accuracy, record the new baseline with `UPDATE_BASELINE=1` on both commands.
+- `node scripts/capture.mjs` re-captures the fixture forms. `--manual <site> <name> <url>` opens a browser so you can sign in or solve a CAPTCHA first, for Workday and SmartRecruiters. Label each new field's `truth` in its `.fields.json`.
 
 **Releasing:** bump `version` in `extension/manifest.json`, add an entry to `CHANGELOG.md`, commit, then tag and push:
 

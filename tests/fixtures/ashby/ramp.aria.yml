@@ -1,0 +1,116 @@
+- list:
+  - listitem:
+    - link "Ramp":
+      - /url: https://ramp.com
+      - img "Ramp"
+  - listitem:
+    - link "Back to Ramp’s Job Listings":
+      - /url: /ramp
+      - img
+  - listitem
+- heading "Security Engineer, Cloud" [level=1]
+- heading "Location" [level=2]
+- paragraph: New York, NY (HQ); Miami, FL; Remote (Canada); Remote (US)
+- heading "Employment Type" [level=2]
+- paragraph: Full time
+- heading "Location Type" [level=2]
+- paragraph: Hybrid
+- heading "Department" [level=2]
+- paragraph: Engineering
+- heading "Compensation" [level=2]
+- list:
+  - listitem: $211.4K – $290.6K • Offers Equity
+- paragraph: The final compensation will depend on the location and level at which the candidate is hired.
+- tablist:
+  - tab "Overview"
+  - tab "Application" [selected]
+- tabpanel "Application":
+  - button "Choose File"
+  - img
+  - heading "Autofill from resume" [level=3]
+  - paragraph: Upload your resume here to autofill key application fields.
+  - button "Upload file"
+  - text: Legal Name*
+  - textbox "Legal Name*":
+    - /placeholder: Type here...
+  - text: Email*
+  - textbox "Email*":
+    - /placeholder: hello@example.com...
+  - text: Phone*
+  - textbox "Phone*":
+    - /placeholder: 1-415-555-1234...
+  - paragraph:
+    - text: Check
+    - strong: "Yes"
+    - text: or
+    - strong: "No"
+    - text: to indicate your agreement to receive text message updates from Ramp Business Corporation regarding your job application. Frequency may vary. Message and data rates may apply. Reply STOP to opt out of future messaging.
+  - paragraph:
+    - text: "View our privacy policy here:"
+    - link "Privacy Policy":
+      - /url: https://ramp.com/legal/privacy-terms/privacy-terms/applicant-privacy-notice#b-communication-preferences
+    - text: "and our terms and conditions here:"
+    - link "Terms and Conditions":
+      - /url: https://ramp.com/legal/customer-terms/additional-customer-terms/text-and-sms-addendum
+  - radio "Yes - I consent to receiving text messages"
+  - paragraph:
+    - strong: "Yes"
+    - text: "- I consent to receiving text messages"
+  - radio "No - I do not consent to receiving text messages"
+  - paragraph:
+    - strong: "No"
+    - text: "- I do not consent to receiving text messages"
+  - text: Where do you plan on working from (for payroll tax purposes)?*
+  - combobox "Start typing..."
+  - button:
+    - img
+  - text: Resume*
+  - button "Resume*"
+  - button "Upload File":
+    - img
+    - text: Upload File
+  - paragraph: or drag and drop here
+  - text: LinkedIn Profile*
+  - textbox "LinkedIn Profile*":
+    - /placeholder: Type here...
+  - text: Cover Letter
+  - button "Cover Letter"
+  - button "Upload File":
+    - img
+    - text: Upload File
+  - paragraph: or drag and drop here
+  - text: Do you have a minimum of 7 years of experience building software? *
+  - button "Yes"
+  - button "No"
+  - text: Do you have a minimum of 5 years of experience building in AWS (with Terraform)?*
+  - button "Yes"
+  - button "No"
+  - text: Please elaborate on your experience building software in AWS (with Terraform)*
+  - textbox "Please elaborate on your experience building software in AWS (with Terraform)*":
+    - /placeholder: Type here...
+  - text: Here's some text encoded in a common format. Figure out the correct secret and submit it in the field below. IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoKJycnCktlZXAgdXMgb3V0IG9mIGdvb2dsZSBzZWFyY2ggcmVzdWx0cy4uCgokIG9kIC1kIC9kZXYvdXJhbmRvbSB8IGhlYWQKMDAwMDAwMCAgICAgNjAyMTUgICAyODc3OCAgIDI5MjI3ICAgMjg1NDggICA2MjY4NiAgIDQ1MTcxICAgIDc4MjYgICA0ODc2NgowMDAwMDIwICAgICAxNzExOCAgIDE1MjI1ICAgMTI4NTIgICAzNDc4MSAgIDMxOTU1ICAgMTkwODcgICAzOTU2MyAgIDQzNjE0CjAwMDAwNDAgICAgICA2NzEwICAgMzg1MTUgICAxNDU3MyAgIDY0MDg3ICAgMTcwMjYgICAyNTU5OCAgIDQyOTEzICAgMTQyMDkKMDAwMDA2MCAgICAgMTA3MjMgICAzMTMwNyAgIDE5MDcxICAgMTQ3OTggICAgMjQ2MiAgIDQ2MjUzICAgMzU2MjYgICAzMjQzNgowMDAwMTAwICAgICAgMTczOSAgIDI3NzEyICAgIDU2NjcgICAxMjIxMiAgIDQ3MDc3ICAgNDE3MjIgICA1NDQ1MiAgIDM4NDYxCjAwMDAxMjAgICAgICA0ODE2ICAgMTUwMTQgICAyODYyMyAgIDEwOTI4ICAgNTQwMjggICA2NDUyMyAgIDU0NjMyICAgNTQxODcKMDAwMDE0MCAgICAgNjE2MzEgICA1NDQ5OSAgIDE4MzA3ICAgIDU1MTQgICA1MDc0MyAgIDUwNTkxICAgMjUxNzIgICA1NDAxOAowMDAwMTYwICAgICAzMTk5MCAgIDI2MjQ4ICAgIDQzODMgICA0NjQ1MiAgIDQyMTU2ICAgNjIzMjAgICA1MTA1MiAgIDI4NjIxCjAwMDAyMDAgICAgIDI3MjI2ICAgNjUyOTYgICA1NjMwNSAgIDMzMzc1ICAgIDQ4MTMgICA0MjI4MyAgIDE5OTgwICAgIDE5MjIKMDAwMDIyMCAgICAgNTcwNjEgICAyOTMyMiAgIDI3MDczICAgNjQ5ODYgICAxNTIxOSAgIDI2MjM0ICAgMjQxMDAgICAyMTIwNAonJycKCicnJwpDb3B5IHRoaXMgZmlsZSBhbmQgcnVuIGBwYnBhc3RlIHwgYmFzZTY0YCB0byBnZW5lcmF0ZSBjaGFsbGVuZ2UgdGV4dC4gQ29waW91cwp3aGl0ZSBzcGFjZSBpcyBhdCB0aGUgYm90dG9tIG9mIHRoZSBmaWxlIHRvIGVuc3VyZSB0cmFpbGluZyBgPT1gIGFuZCBoaW50IGF0CmJhc2U2NC4KJycnCgppbXBvcnQgY29kZWNzCmltcG9ydCBzdHJpbmcKaW1wb3J0IHN5cwppbXBvcnQgdGltZQoKZnJvbSBjcnlwdG9ncmFwaHkuaGF6bWF0LmJhY2tlbmRzIGltcG9ydCBkZWZhdWx0X2JhY2tlbmQKZnJvbSBjcnlwdG9ncmFwaHkuaGF6bWF0LnByaW1pdGl2ZXMuaGFzaGVzIGltcG9ydCBTSEExCmZyb20gY3J5cHRvZ3JhcGh5Lmhhem1hdC5wcmltaXRpdmVzLnR3b2ZhY3Rvci50b3RwIGltcG9ydCBUT1RQCgoKT05FX1dFRUtfSU5fU0VDT05EUyA9IDYwNF84MDAKCgpkZWYgZ2VuZXJhdGVfc2VjcmV0KCk6CiAgICB0b3RwID0gVE9UUCgKICAgICAgICBrZXk9Y29kZWNzLmVuY29kZShzdHJpbmcuYXNjaWlfbGV0dGVycywgZW5jb2Rpbmc9InV0Zi04IiksCiAgICAgICAgbGVuZ3RoPTgsCiAgICAgICAgYWxnb3JpdGhtPVNIQTEoKSwKICAgICAgICB0aW1lX3N0ZXA9T05FX1dFRUtfSU5fU0VDT05EUywKICAgICAgICBiYWNrZW5kPWRlZmF1bHRfYmFja2VuZCgpLAogICAgKQogICAgc2VlZCA9IGludCh0aW1lLnRpbWUoKSkKICAgIHRva2VuID0gY29kZWNzLmRlY29kZSh0b3RwLmdlbmVyYXRlKHNlZWQpLCBlbmNvZGluZz0idXRmLTgiKQogICAgcmV0dXJuIGYie3Rva2VufS17c2VlZH0iCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHN5cy5zdGRvdXQud3JpdGUoCiAgICAgICAgZiJQbGVhc2UgaGVhZCB0byBodHRwczovL3JhbXAuY29tL2NhcmVlcnMgYW5kIHVzZSB0aGlzIHNlY3JldCB3aGVuICIKICAgICAgICBmInlvdSBhcHBseToge2dlbmVyYXRlX3NlY3JldCgpfVxuIgogICAgKQoKCg==*
+  - textbox:
+    - /placeholder: Type here...
+  - text: "In the above question, we ask you to figure out a secret to prove two things: (1) that you are not a bot auto-applying to the role and (2) that you are able to read and interact with code. With those goals in mind, what are the security properties (if any) of the resulting secret? Do we achieve our goals? How could we do so more effectively?*"
+  - 'textbox "In the above question, we ask you to figure out a secret to prove two things: (1) that you are not a bot auto-applying to the role and (2) that you are able to read and interact with code. With those goals in mind, what are the security properties (if any) of the resulting secret? Do we achieve our goals? How could we do so more effectively?*"':
+    - /placeholder: Type here...
+  - text: We believe exceptional performance in one area is a good indication of performance in other areas. Do you have any examples of exceptional performance you want to highlight?
+  - textbox "We believe exceptional performance in one area is a good indication of performance in other areas. Do you have any examples of exceptional performance you want to highlight?":
+    - /placeholder: Type here...
+  - link "Recruiting Privacy Policy":
+    - /url: https://ramp.com/legal/applicant-privacy-notice
+  - button "Submit Application":
+    - text: Submit Application
+    - img
+- contentinfo:
+  - link "Learn more about Ashby":
+    - /url: https://www.ashbyhq.com
+    - text: Powered by
+    - img "Ashby"
+  - paragraph:
+    - link "Privacy Policy":
+      - /url: https://www.ashbyhq.com/privacy
+    - link "Security":
+      - /url: https://www.ashbyhq.com/security
+    - link "Vulnerability Disclosure":
+      - /url: https://www.ashbyhq.com/disclosure
