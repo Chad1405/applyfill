@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ApplyFill settings</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{--bg:#A8B197;--card:#fff;--line:#EDD3DB;--fg:#2B3123;--muted:#9B4058;--accent:#7E5E9A;--soft:#FBEBEF;--rose:#C82151;--field:#fff;--ok:#2F6B3C;--bad:#8E1430}
+@media (prefers-color-scheme:dark){:root{--bg:#191C15;--card:#21251C;--line:#4A3139;--fg:#E4E8DC;--muted:#E59BB0;--accent:#B89AD6;--soft:#33242A;--rose:#F0789A;--field:#191C15;--ok:#8FD39E;--bad:#FF9FB3;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+main{max-width:920px;margin:0 auto;padding:28px 20px 80px;display:flex;flex-direction:column;gap:22px}
+h1{font-size:26px;margin:0}
+h2{font-size:17px;margin:0 0 4px}
+p.sub{color:var(--fg);margin:4px 0 0}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+label{display:flex;flex-direction:column;gap:4px;font-size:11.5px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+input,textarea,select{font:14px system-ui,sans-serif;color:var(--fg);background:var(--field);border:1px solid var(--line);border-radius:8px;padding:8px 10px;text-transform:none;letter-spacing:0;width:100%}
+textarea{resize:vertical;min-height:90px}
+.entry{border:1px solid var(--line);border-radius:10px;padding:12px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.entry .wide{grid-column:1/-1}
+.actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+button{font:600 13px system-ui,sans-serif;border:0;border-radius:8px;padding:9px 14px;cursor:pointer;background:#7E5E9A;color:#fff}
+button.ghost{background:var(--soft);color:var(--rose)}
+button.del{background:transparent;color:var(--bad);padding:6px 8px;justify-self:end}
+button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.bar{position:sticky;bottom:0;background:var(--bg);padding:12px 0;border-top:1px solid var(--line);display:flex;gap:10px;align-items:center}
+#status{color:var(--ok);font-size:13px}
+.note{color:var(--muted);font-size:12.5px;margin:0}
+.sr{position:absolute;opacity:0;width:1px;height:1px;overflow:hidden}
+.ghost-file span{display:inline-block;font:600 13px system-ui,sans-serif;border-radius:8px;padding:9px 14px;cursor:pointer;background:var(--soft);color:var(--rose);text-transform:none;letter-spacing:0}
+.ghost-file:focus-within span{outline:2px solid var(--accent);outline-offset:1px}
+</style>
+</head>
+<body>
+<main>
+  <div>
+    <h1>ApplyFill settings</h1>
+    <p class="sub">Your details and saved answers. They stay in this browser and are only sent to Claude when you ask it to draft an answer or set up from your CV.</p>
+  </div>
+
+  <section>
+    <div><h2>Start here</h2><p class="note">Paste your CV as plain text. With an Anthropic API key, ApplyFill can fill in your details and write your saved answers from it, and open questions get a "Draft with Claude" button. Without a key, fill the sections below by hand. Your key is stored only in this browser and sent only to Anthropic. Get one at console.anthropic.com.</p></div>
+    <div class="grid">
+      <label>Anthropic API key (optional)<input id="apiKey" type="password" autocomplete="off" placeholder="sk-ant-…"></label>
+      <label>Model<input id="model" placeholder="claude-sonnet-5-5"></label>
+    </div>
+    <label>Your CV as text<textarea id="cvText" rows="8" placeholder="Paste your CV here"></textarea></label>
+    <div class="actions"><button class="ghost" id="setup">Fill in my details and answers from this CV</button><span class="note" id="setupStatus"></span></div>
+  </section>
+
+  <section>
+    <div><h2>Your details</h2><p class="note">Used for short fields like name, email and notice period. Leave a field blank to skip it. For right to work and sponsorship, write Yes or No so radio buttons and dropdowns can be picked for you.</p></div>
+    <div class="grid" id="profile"></div>
+  </section>
+
+  <section>
+    <div><h2>Saved answers</h2><p class="note">For open questions. "Matches" is a comma-separated list of words; a question containing any of them gets this answer suggested. Use {company} and {role} and they'll be filled in from the page. Replace any [bracketed] text with your own.</p></div>
+    <div id="library" style="display:flex;flex-direction:column;gap:10px"></div>
+    <div class="actions"><button class="ghost" id="add">Add an answer</button></div>
+  </section>
+
+  <section>
+    <div><h2>Back up</h2><p class="note">Export everything to a JSON file (your API key is left out), or restore from one.</p></div>
+    <div class="actions"><button class="ghost" id="export">Export backup</button><label class="ghost-file"><input type="file" id="importFile" accept="application/json,.json" class="sr"><span>Restore from a file</span></label><button class="ghost" id="reset">Reset to defaults</button></div>
+  </section>
+
+  <div class="bar"><button id="save">Save</button><span id="status"></span></div>
+</main>
+<script src="defaults.js"></script>
+<script src="options.js"></script>
+</body>
+</html>
