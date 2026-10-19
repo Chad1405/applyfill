@@ -6,7 +6,7 @@
 
   const KEY_LABEL = { firstName:"First name", lastName:"Last name", fullName:"Full name", email:"Email", phone:"Phone", phoneIntl:"Phone (intl)", city:"City", country:"Country", postcode:"Postcode", address:"Address", linkedin:"LinkedIn", website:"Website", github:"GitHub", currentCompany:"Current company", currentTitle:"Current title", yearsExperience:"Years of experience", university:"University", degree:"Degree", graduationYear:"Graduation year", noticePeriod:"Notice period", salaryExpectation:"Salary expectation", rightToWork:"Right to work", needsSponsorship:"Needs sponsorship", nationality:"Nationality", pronouns:"Pronouns", howHeard:"How you heard" };
 
-  let profile = {}, library = [], settings = {}, fields = [], host, root, open = true;
+  let profile = {}, library = [], fields = [], host, root, open = true;
   const isTop = window.top === window;
 
   const { scan: scanPage, classify, fill: fillField, bestOption, optLabel, norm, low, textOf } = APPLYFILL_FIELDS;
@@ -185,14 +185,8 @@
   function logFill(f) {
     const answer = f.drafted ? "Claude draft" : f.libIdx >= 0 ? library[f.libIdx].title : null;
     if (!answer) return;
-    chrome.storage.local.get("fillLog", ({ fillLog = [] }) => {
-      const url = location.origin + location.pathname;
-      let e = fillLog.find(x => x.url === url);
-      if (!e) fillLog.push(e = { url, date: new Date().toISOString().slice(0, 10), answers: [] });
-      Object.assign(e, { company: ctx.company, role: ctx.role });
-      e.answers = e.answers.filter(a => a.question !== f.label).concat({ question: f.label.slice(0, 200), answer, edited: !f.drafted && !!f.edited });
-      chrome.storage.local.set({ fillLog: fillLog.slice(-1000) });
-    });
+    chrome.runtime.sendMessage({ type: "applyfill:log", url: location.origin + location.pathname, company: ctx.company, role: ctx.role,
+      question: f.label, answer, edited: !f.drafted && !!f.edited });
   }
   function btn(t, c) { const b = document.createElement("button"); b.className = c; b.textContent = t; b.type = "button"; return b; }
   function esc(s) { return String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
@@ -211,10 +205,12 @@
     else if (host) host.style.display = "none";
   }
 
-  chrome.storage.local.get(["profile", "library", "settings"], d => {
+  // Storage is locked to the extension's own pages (see background.js), so the background hands over
+  // just your details and saved answers. The API key and CV never reach the page's process.
+  chrome.runtime.sendMessage({ type: "applyfill:state" }, d => {
+    d = d || {};
     profile = Object.assign({}, APPLYFILL_DEFAULTS.profile, d.profile || {});
     library = d.library || APPLYFILL_DEFAULTS.library;
-    settings = Object.assign({}, APPLYFILL_DEFAULTS.settings, d.settings || {});
     ctx.company = company(); ctx.role = role();
     fields = scan();
     if (!fields.length && !isTop) return; // stay quiet in frames without forms

@@ -80,3 +80,23 @@ test("filling a saved answer logs which answer went to which company", async ({ 
     expect.objectContaining({ company: "Northwind Trading", url: "https://northwind.teamtailor.com/jobs/1-data-analyst/applications/new",
       answers: [expect.objectContaining({ answer: "Why this company", edited: false })] })]);
 });
+
+test("scripts injected into a job page can't read the API key", async ({ context, sw }) => {
+  await sw.evaluate(() => chrome.storage.local.set({ settings: { apiKey: "sk-ant-test-not-a-real-key", cvText: "CV" } }));
+  const page = await context.newPage();
+  await page.route("**/*", r => r.fulfill({ path: path.join(ROOT, "tests/injection/question-label.html"), contentType: "text/html" }));
+  await page.goto("https://northwind.teamtailor.com/jobs/1");
+  await page.bringToFront();
+  // Run in the same isolated world content.js runs in, and try to read storage directly.
+  const seen = await sw.evaluate(async () => {
+    const [t] = await chrome.tabs.query({ active: true, currentWindow: true });
+    const [r] = await chrome.scripting.executeScript({ target: { tabId: t.id }, func: async () => {
+      try { return JSON.stringify(await chrome.storage.local.get(null)); } catch (e) { return "blocked: " + e.message; }
+    } });
+    return r.result;
+  });
+  expect(seen).not.toContain("sk-ant-test");
+  // and ApplyFill itself still works there: details arrive via the background
+  await sw.evaluate(async () => { const [t] = await chrome.tabs.query({ active: true, currentWindow: true }); await inject(t.id); });
+  await expect(page.locator("#applyfill-host .it").first()).toBeVisible();
+});
