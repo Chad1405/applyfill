@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Your API key, CV and details are now readable only by ApplyFill's own settings page and background worker, not by the script it injects into job pages, which gets just your details and saved answers. Before, that script loaded the API key on every page it ran on without using it.
 - Field matching ranks its signals: `autocomplete` first, then the accessible name, label text, `name`/`id`, then site hooks such as Workday's `data-automation-id`. Measured on 15 captured forms from Greenhouse, Lever, Ashby, Teamtailor and webITrent: 90% → 100% precision, 77% → 91% recall.
 - Fixes found on real forms: "ethnicity" no longer matches City; "Preferred first name" is no longer skipped as a referral question; long yes/no questions (sponsorship, right to work) are recognised; Lever and webITrent radio groups get their real question; a field no longer borrows a neighbouring field's label.
 - Custom dropdowns (Greenhouse's react-select, Workday's button lists) now get the matching option picked instead of just typed in. Only options on screen are considered, so a hidden phone-country list can't be picked by mistake.

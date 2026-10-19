@@ -3,6 +3,11 @@
 
 importScripts("defaults.js", "prompt.js");
 
+// Keep storage (API key, CV, details) readable only by the extension's own pages and this worker,
+// not by the scripts it injects into job pages. Content scripts ask for what they need below.
+// Runs on every worker start, as the setting doesn't persist across browser restarts.
+chrome.storage.local.setAccessLevel({ accessLevel: "TRUSTED_CONTEXTS" });
+
 chrome.runtime.onInstalled.addListener(({ reason }) => {
   if (reason === "install") chrome.runtime.openOptionsPage();
 });
@@ -24,10 +29,30 @@ chrome.action.onClicked.addListener(async (tab) => {
 
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   const reply = p => p.then(r => sendResponse({ ok: true, ...r }), err => sendResponse({ ok: false, error: String(err.message || err) }));
+  const fromExtensionPage = (sender.url || "").startsWith(chrome.runtime.getURL(""));
+  if (msg && msg.type === "applyfill:state") { chrome.storage.local.get(["profile", "library"]).then(sendResponse); return true; }
+  if (msg && msg.type === "applyfill:log") { logFill(msg); return; }
   if (msg && msg.type === "applyfill:draft") { reply(draft(msg)); return true; }
-  if (msg && msg.type === "applyfill:setup") { reply(setupFromCv(msg).then(data => ({ data }))); return true; }
+  if (msg && msg.type === "applyfill:setup" && fromExtensionPage) { reply(setupFromCv(msg).then(data => ({ data }))); return true; }
   if (msg && msg.type === "applyfill:options") { chrome.runtime.openOptionsPage(); }
 });
+
+// Which saved answer (or Claude draft) went to which company, for the AI Role Tracker.
+// Writes go through here one at a time, so two quick fills can't overwrite each other.
+let logQueue = Promise.resolve();
+function logFill(m) {
+  const str = (v, n) => String(v || "").slice(0, n);
+  logQueue = logQueue.then(async () => {
+    const { fillLog = [] } = await chrome.storage.local.get("fillLog");
+    const url = str(m.url, 500);
+    let e = fillLog.find(x => x.url === url);
+    if (!e) fillLog.push(e = { url, date: new Date().toISOString().slice(0, 10), answers: [] });
+    Object.assign(e, { company: str(m.company, 120), role: str(m.role, 160) });
+    const question = str(m.question, 200);
+    e.answers = e.answers.filter(a => a.question !== question).concat({ question, answer: str(m.answer, 120), edited: !!m.edited });
+    await chrome.storage.local.set({ fillLog: fillLog.slice(-1000) });
+  }).catch(err => console.warn("ApplyFill: couldn't log fill", err));
+}
 
 async function loadState() {
   const stored = await chrome.storage.local.get(["settings", "profile"]);

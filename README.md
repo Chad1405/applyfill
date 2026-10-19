@@ -37,6 +37,8 @@ On the settings page:
 ## Your API key and data
 
 - Your details, saved answers, CV text and API key are stored in `chrome.storage.local` on your computer. They are not synced or sent anywhere else.
+- Only ApplyFill's settings page and background worker can read that storage. The script that runs on job pages is given your details and saved answers, never your API key or CV.
+- The key isn't encrypted on disk, so use a key just for ApplyFill with a low monthly spend limit (set it in the Anthropic Console), and revoke it if your computer or Chrome profile might be compromised.
 - Only **Draft with Claude** and **Fill in my details from this CV** send anything. They send the question, your CV text and profile, and some text from the job page directly to `api.anthropic.com` using your key. Usage is billed to your Anthropic account.
 - The extension can only read a page after you click it (Chrome's `activeTab` permission). The listed job-board domains are there so forms embedded from those sites can be read too.
 - Exported backups leave your API key out.
